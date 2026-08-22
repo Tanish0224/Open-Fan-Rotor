@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "design_table": "D:\\Placement_Self_Projects\\Boeing_Aerodynamics\\01_design\\results\\design_table.csv",
+    "n_cad_sections": 21,
+    "n_sketch_points_per_section": 48,
+    "cad_span_r_over_R": [
+      0.32,
+      0.985
+    ],
+    "te_thickness_frac_chord": 0.006,
+    "no_solidworks_geometry_used_as_input": true
+  },
+  "1_design_idealisation_smooth_closed_form": {
+    "description": "Analytically exact NACA 4-digit closed-form curve, 601 points, per station",
+    "volume_one_blade_m3": 0.0016111886436928474,
+    "volume_one_blade_cm3": 1611.1886436928473
+  },
+  "2a_cad_input_polygon_lower_bound": {
+    "description": "Straight-edge polygon through the EXACT 48 arc-length-resampled points sent to CreateSpline2 for every section in the v02 build. A polyline through these points always cuts every corner, so this is a LOWER BOUND on the true section area.",
+    "volume_one_blade_m3": 0.0015940123220954522,
+    "volume_one_blade_cm3": 1594.0123220954522
+  },
+  "3_expected_bracket_for_the_spline_based_CAD_volume": {
+    "lower_bound_m3": 0.0015940123220954522,
+    "upper_bound_m3": 0.0016111886436928474,
+    "lower_bound_cm3": 1594.0123220954522,
+    "upper_bound_cm3": 1611.1886436928473,
+    "bracket_width_pct": 1.0775526236093105,
+    "rationale": "A B-spline through the 48 points bulges outward between points on this convex-ish aerofoil shape (unlike a polyline, which cuts every corner), so the true SolidWorks spline-loft volume is expected to lie AT OR ABOVE the polygon bound and AT OR BELOW the smooth closed-form bound -- the 48-point discretisation is fine enough that the true curve and the spline interpolant should nearly coincide."
+  },
+  "historical_pre_v02_target_unchanged_for_traceability": {
+    "volume_one_blade_m3": 0.0016111886436928474,
+    "volume_one_blade_cm3": 1611.1886436928473,
+    "note": "This is the SAME smooth-closed-form calculation as (1) -- confirms no drift in the existing blade_geometry.py computation across this update."
+  }
+}

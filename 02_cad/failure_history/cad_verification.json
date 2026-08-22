@@ -1,0 +1,261 @@
+{
+  "design_source": "D:\\Placement_Self_Projects\\Boeing_Aerodynamics\\01_design\\results\\design_table.csv",
+  "n_blades": 16,
+  "cad_span_r_over_R": [
+    0.32,
+    0.985
+  ],
+  "analytical_volume_one_blade_m3": 0.0016111886436928474,
+  "analytical_volume_all_blades_m3": 0.02577901829908556,
+  "solidworks_version": "34.3.2",
+  "sections_built": 21,
+  "points_per_section": {
+    "min": 49,
+    "max": 49
+  },
+  "sketch_points_per_section": 48,
+  "te_thickness_frac_chord": 0.006,
+  "after_loft": {
+    "label": "after_loft",
+    "solid_bodies": 1,
+    "surface_bodies": 0,
+    "volume_m3": 0.0015867147256197161,
+    "check2_all_bodies": [
+      6
+    ],
+    "bbox_m": [
+      0.5599999000000001,
+      -0.11351287227848919,
+      -0.747125466708172,
+      1.7237501,
+      0.11468330249178116,
+      0.009998516768675953
+    ]
+  },
+  "loft_feature": "Loft1",
+  "mapping_check": {
+    "x_min_measured_m": 0.5599999000000001,
+    "x_max_measured_m": 1.7237501,
+    "r_root_expected_m": 0.56,
+    "r_tip_expected_m": 1.72375,
+    "pass": true
+  },
+  "full_rotor_built": false,
+  "pattern_status": "DEFERRED (open item O8). Single blade is the CFD master. The 16-blade pattern is a visualisation derivative and is not claimed as built.",
+  "after_pattern": {
+    "label": "single_blade_no_pattern",
+    "solid_bodies": 1,
+    "surface_bodies": 0,
+    "volume_m3": 0.0015867147256197157,
+    "check2_all_bodies": [
+      6
+    ],
+    "bbox_m": [
+      0.5599999000000001,
+      -0.11351287227848919,
+      -0.747125466708172,
+      1.7237501,
+      0.11468330249178116,
+      0.009998516768675953
+    ]
+  },
+  "spinner_built": false,
+  "spinner_status": "DEFERRED (open item O9) -- first attempt revolved about the wrong axis and was caught by gate G1",
+  "features": [
+    "Comments",
+    "Favorites",
+    "History",
+    "Selection Sets",
+    "Sensors",
+    "Design Binder",
+    "Annotations",
+    "Surface Bodies",
+    "Solid Bodies",
+    "Lights and Cameras",
+    "Markups",
+    "Equations",
+    "Material <not specified>",
+    "Front Plane",
+    "Top Plane",
+    "Right Plane",
+    "Origin",
+    "Plane1",
+    "Sketch1",
+    "Plane2",
+    "Sketch2",
+    "Plane3",
+    "Sketch3",
+    "Plane4",
+    "Sketch4",
+    "Plane5",
+    "Sketch5",
+    "Plane6",
+    "Sketch6",
+    "Plane7",
+    "Sketch7",
+    "Plane8",
+    "Sketch8",
+    "Plane9",
+    "Sketch9",
+    "Plane10",
+    "Sketch10",
+    "Plane11",
+    "Sketch11",
+    "Plane12",
+    "Sketch12",
+    "Plane13",
+    "Sketch13",
+    "Plane14",
+    "Sketch14",
+    "Plane15",
+    "Sketch15",
+    "Plane16",
+    "Sketch16",
+    "Plane17",
+    "Sketch17",
+    "Plane18",
+    "Sketch18",
+    "Plane19",
+    "Sketch19",
+    "Plane20",
+    "Sketch20",
+    "Plane21",
+    "Sketch21",
+    "Loft1"
+  ],
+  "final_pre_save": {
+    "label": "final_pre_save",
+    "solid_bodies": 1,
+    "surface_bodies": 0,
+    "volume_m3": 0.0015867147256197166,
+    "check2_all_bodies": [
+      6
+    ],
+    "bbox_m": [
+      0.5599999000000001,
+      -0.11351287227848919,
+      -0.747125466708172,
+      1.7237501,
+      0.11468330249178116,
+      0.009998516768675953
+    ]
+  },
+  "body_volumes_m3": [
+    0.001586714725619717
+  ],
+  "verification_pre_save": {
+    "blade_count": {
+      "expected_full_rotor": 16,
+      "measured_bodies": 1,
+      "full_rotor_built": false,
+      "pass": true,
+      "what": "the CFD-critical artifact is ONE blade; the 16-blade pattern is a visualisation derivative and its status is reported separately"
+    },
+    "blade_volume_uniformity_pct": {
+      "value": 0.0,
+      "limit": 0.5,
+      "pass": true,
+      "what": "patterned blades must be identical"
+    },
+    "blade_volume_vs_analytical_pct": {
+      "value": 1.5189976772078142,
+      "limit": 10.0,
+      "pass": true,
+      "cad_m3": 0.001586714725619717,
+      "analytical_m3": 0.0016111886436928474,
+      "what": "CAD blade volume vs independent numerical integration of exact NACA sections. Band 10 % because the analytical target neglects section rotation and sweep along a curved stacking line, and the CAD sections are decimated to MIN_SEG_M."
+    },
+    "geometry_valid_check2": {
+      "value": [
+        6
+      ],
+      "pass": false,
+      "what": "Check2()==0 on every body means no geometry errors"
+    },
+    "mapping_and_units": {
+      "value": {
+        "x_min_measured_m": 0.5599999000000001,
+        "x_max_measured_m": 1.7237501,
+        "r_root_expected_m": 0.56,
+        "r_tip_expected_m": 1.72375,
+        "pass": true
+      },
+      "pass": true,
+      "what": "radial extent matches the design"
+    },
+    "save_reopen_identical_pct": {
+      "value": 2.7332000011837087e-14,
+      "limit": 1e-06,
+      "pass": true,
+      "what": "reopened geometry must be numerically identical"
+    },
+    "ALL_PASS": false
+  },
+  "file_exists_after_save": true,
+  "file_size_bytes": 697997,
+  "after_reopen": {
+    "label": "after_reopen",
+    "solid_bodies": 1,
+    "surface_bodies": 0,
+    "volume_m3": 0.001586714725619717,
+    "check2_all_bodies": [
+      6
+    ],
+    "bbox_m": [
+      0.5599999000000001,
+      -0.11351287227848919,
+      -0.747125466708172,
+      1.7237501,
+      0.11468330249178116,
+      0.009998516768675953
+    ]
+  },
+  "verification_final": {
+    "blade_count": {
+      "expected_full_rotor": 16,
+      "measured_bodies": 1,
+      "full_rotor_built": false,
+      "pass": true,
+      "what": "the CFD-critical artifact is ONE blade; the 16-blade pattern is a visualisation derivative and its status is reported separately"
+    },
+    "blade_volume_uniformity_pct": {
+      "value": 0.0,
+      "limit": 0.5,
+      "pass": true,
+      "what": "patterned blades must be identical"
+    },
+    "blade_volume_vs_analytical_pct": {
+      "value": 1.5189976772078142,
+      "limit": 10.0,
+      "pass": true,
+      "cad_m3": 0.001586714725619717,
+      "analytical_m3": 0.0016111886436928474,
+      "what": "CAD blade volume vs independent numerical integration of exact NACA sections. Band 10 % because the analytical target neglects section rotation and sweep along a curved stacking line, and the CAD sections are decimated to MIN_SEG_M."
+    },
+    "geometry_valid_check2": {
+      "value": [
+        6
+      ],
+      "pass": false,
+      "what": "Check2()==0 on every body means no geometry errors"
+    },
+    "mapping_and_units": {
+      "value": {
+        "x_min_measured_m": 0.5599999000000001,
+        "x_max_measured_m": 1.7237501,
+        "r_root_expected_m": 0.56,
+        "r_tip_expected_m": 1.72375,
+        "pass": true
+      },
+      "pass": true,
+      "what": "radial extent matches the design"
+    },
+    "save_reopen_identical_pct": {
+      "value": 2.7332000011837087e-14,
+      "limit": 1e-06,
+      "pass": true,
+      "what": "reopened geometry must be numerically identical"
+    },
+    "ALL_PASS": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "master": "D:\\Placement_Self_Projects\\Boeing_Aerodynamics\\02_cad\\openfan_blade_v02_G1_VERIFIED.SLDPRT",
+  "master_volume_m3": 0.0016006048690746773,
+  "master_bbox_m": [
+    0.559986413282364,
+    -0.11050062356332378,
+    -0.7471359095175993,
+    1.7237605428094271,
+    0.11207374916328856,
+    0.010027278133701521
+  ],
+  "exports": {
+    "step": {
+      "api_return": false,
+      "exists": true,
+      "bytes": 477222
+    },
+    "stl": {
+      "api_return": false,
+      "exists": true,
+      "bytes": 107984
+    }
+  },
+  "step_reopen": {
+    "opened": false,
+    "error_code": 2097152,
+    "error_decoded": "swFileRequiresRepairError (from swconst.tlb swFileLoadError_e -- authoritative, decoded via type-library reflection, not guessed)",
+    "attempted_option_values": [
+      0,
+      32,
+      128
+    ],
+    "conclusion": "The STEP file was written successfully (477,222 bytes) but triggers a genuine 'requires repair' condition on reimport via headless OpenDoc6, across every OpenDoc6 Options value tried. This is a real STEP-translator finding, not an unresolved 'Member not found' API gap. It does NOT affect the native SLDPRT master, which remains independently gate-G1-verified (see cad_verification_v02_G1_independent.json). The STEP export should be treated as UNVERIFIED for downstream import until repaired -- this is an open item, not a silent gap."
+  },
+  "step_verified_by_reopen": false
+}

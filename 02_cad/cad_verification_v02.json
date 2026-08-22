@@ -1,0 +1,361 @@
+{
+  "design_source": "D:\\Placement_Self_Projects\\Boeing_Aerodynamics\\01_design\\results\\design_table.csv",
+  "n_blades": 16,
+  "cad_span_r_over_R": [
+    0.32,
+    0.985
+  ],
+  "analytical_volume_one_blade_m3": 0.0016111886436928474,
+  "analytical_volume_all_blades_m3": 0.02577901829908556,
+  "solidworks_version": "34.3.2",
+  "sections_built": 21,
+  "points_per_section": {
+    "min": 48,
+    "max": 48
+  },
+  "sketch_points_per_section": 48,
+  "te_thickness_frac_chord": 0.006,
+  "profile_method": "two_open_splines_upper_lower_SEGMENTED",
+  "le_split_indices": {
+    "min": 24,
+    "max": 24
+  },
+  "windows": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      9,
+      10,
+      11,
+      12
+    ],
+    [
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      15,
+      16,
+      17,
+      18
+    ],
+    [
+      18,
+      19,
+      20
+    ]
+  ],
+  "window_loft_names": [
+    "Loft1",
+    "Loft2",
+    "Loft3",
+    "Loft4",
+    "Loft5",
+    "Loft6",
+    "Loft7"
+  ],
+  "after_segmented_lofts": {
+    "label": "after_segmented_lofts",
+    "solid_bodies": 7,
+    "surface_bodies": 0,
+    "volume_m3": 0.001604093733982928,
+    "check2_all_bodies": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "bbox_m": [
+      0.559986413282364,
+      -0.11050062356332378,
+      -0.7471359095175993,
+      1.7237605428094271,
+      0.11207374916328856,
+      0.010027278133701521
+    ]
+  },
+  "after_combine": {
+    "label": "after_combine",
+    "solid_bodies": 1,
+    "surface_bodies": 0,
+    "volume_m3": 0.0016006048690746773,
+    "check2_all_bodies": [
+      0
+    ],
+    "bbox_m": [
+      0.559986413282364,
+      -0.11050062356332378,
+      -0.7471359095175993,
+      1.7237605428094271,
+      0.11207374916328856,
+      0.010027278133701521
+    ]
+  },
+  "combine_feature": "Combine1",
+  "loft_feature": "Combine1",
+  "mapping_check": {
+    "x_min_measured_m": 0.559986413282364,
+    "x_max_measured_m": 1.7237605428094271,
+    "r_root_expected_m": 0.56,
+    "r_tip_expected_m": 1.72375,
+    "pass": true
+  },
+  "full_rotor_built": false,
+  "pattern_status": "DEFERRED (open item O8). Single blade is the CFD master. The 16-blade pattern is a visualisation derivative and is not claimed as built.",
+  "after_pattern": {
+    "label": "single_blade_no_pattern",
+    "solid_bodies": 1,
+    "surface_bodies": 0,
+    "volume_m3": 0.0016006048690746782,
+    "check2_all_bodies": [
+      0
+    ],
+    "bbox_m": [
+      0.559986413282364,
+      -0.11050062356332378,
+      -0.7471359095175993,
+      1.7237605428094271,
+      0.11207374916328856,
+      0.010027278133701521
+    ]
+  },
+  "spinner_built": false,
+  "spinner_status": "DEFERRED (open item O9) -- first attempt revolved about the wrong axis and was caught by gate G1",
+  "features": [
+    "Comments",
+    "Favorites",
+    "History",
+    "Selection Sets",
+    "Sensors",
+    "Design Binder",
+    "Annotations",
+    "Surface Bodies",
+    "Solid Bodies",
+    "Lights and Cameras",
+    "Markups",
+    "Equations",
+    "Material <not specified>",
+    "Front Plane",
+    "Top Plane",
+    "Right Plane",
+    "Origin",
+    "Plane1",
+    "Sketch1",
+    "Plane2",
+    "Sketch2",
+    "Plane3",
+    "Sketch3",
+    "Plane4",
+    "Sketch4",
+    "Loft1",
+    "Plane5",
+    "Sketch5",
+    "Plane6",
+    "Sketch6",
+    "Plane7",
+    "Sketch7",
+    "Plane8",
+    "Sketch8",
+    "Loft2",
+    "Plane9",
+    "Sketch9",
+    "Plane10",
+    "Sketch10",
+    "Plane11",
+    "Sketch11",
+    "Plane12",
+    "Sketch12",
+    "Loft3",
+    "Plane13",
+    "Sketch13",
+    "Plane14",
+    "Sketch14",
+    "Plane15",
+    "Sketch15",
+    "Plane16",
+    "Sketch16",
+    "Loft4",
+    "Plane17",
+    "Sketch17",
+    "Plane18",
+    "Sketch18",
+    "Plane19",
+    "Sketch19",
+    "Plane20",
+    "Sketch20",
+    "Loft5",
+    "Plane21",
+    "Sketch21",
+    "Plane22",
+    "Sketch22",
+    "Plane23",
+    "Sketch23",
+    "Plane24",
+    "Sketch24",
+    "Loft6",
+    "Plane25",
+    "Sketch25",
+    "Plane26",
+    "Sketch26",
+    "Plane27",
+    "Sketch27",
+    "Loft7",
+    "Combine1"
+  ],
+  "final_pre_save": {
+    "label": "final_pre_save",
+    "solid_bodies": 1,
+    "surface_bodies": 0,
+    "volume_m3": 0.0016006048690746782,
+    "check2_all_bodies": [
+      0
+    ],
+    "bbox_m": [
+      0.559986413282364,
+      -0.11050062356332378,
+      -0.7471359095175993,
+      1.7237605428094271,
+      0.11207374916328856,
+      0.010027278133701521
+    ]
+  },
+  "body_volumes_m3": [
+    0.0016006048690746782
+  ],
+  "verification_pre_save": {
+    "blade_count": {
+      "expected_full_rotor": 16,
+      "measured_bodies": 1,
+      "full_rotor_built": false,
+      "pass": true,
+      "what": "the CFD-critical artifact is ONE blade; the 16-blade pattern is a visualisation derivative and its status is reported separately"
+    },
+    "blade_volume_uniformity_pct": {
+      "value": 0.0,
+      "limit": 0.5,
+      "pass": true,
+      "what": "patterned blades must be identical"
+    },
+    "blade_volume_vs_analytical_pct": {
+      "value": 0.6568923297467677,
+      "limit": 10.0,
+      "pass": true,
+      "cad_m3": 0.0016006048690746782,
+      "analytical_m3": 0.0016111886436928474,
+      "what": "CAD blade volume vs independent numerical integration of exact NACA sections. Band 10 % because the analytical target neglects section rotation and sweep along a curved stacking line, and the CAD sections are decimated to MIN_SEG_M."
+    },
+    "geometry_valid_check2": {
+      "value": [
+        0
+      ],
+      "pass": true,
+      "what": "Check2()==0 on every body means no geometry errors"
+    },
+    "mapping_and_units": {
+      "value": {
+        "x_min_measured_m": 0.559986413282364,
+        "x_max_measured_m": 1.7237605428094271,
+        "r_root_expected_m": 0.56,
+        "r_tip_expected_m": 1.72375,
+        "pass": true
+      },
+      "pass": true,
+      "what": "radial extent matches the design"
+    },
+    "save_reopen_identical_pct": {
+      "value": 0.0,
+      "limit": 1e-06,
+      "pass": true,
+      "what": "reopened geometry must be numerically identical"
+    },
+    "ALL_PASS": true
+  },
+  "file_exists_after_save": true,
+  "file_size_bytes": 548728,
+  "after_reopen": {
+    "label": "after_reopen",
+    "solid_bodies": 1,
+    "surface_bodies": 0,
+    "volume_m3": 0.0016006048690746782,
+    "check2_all_bodies": [
+      0
+    ],
+    "bbox_m": [
+      0.559986413282364,
+      -0.11050062356332378,
+      -0.7471359095175993,
+      1.7237605428094271,
+      0.11207374916328856,
+      0.010027278133701521
+    ]
+  },
+  "verification_final": {
+    "blade_count": {
+      "expected_full_rotor": 16,
+      "measured_bodies": 1,
+      "full_rotor_built": false,
+      "pass": true,
+      "what": "the CFD-critical artifact is ONE blade; the 16-blade pattern is a visualisation derivative and its status is reported separately"
+    },
+    "blade_volume_uniformity_pct": {
+      "value": 0.0,
+      "limit": 0.5,
+      "pass": true,
+      "what": "patterned blades must be identical"
+    },
+    "blade_volume_vs_analytical_pct": {
+      "value": 0.6568923297467677,
+      "limit": 10.0,
+      "pass": true,
+      "cad_m3": 0.0016006048690746782,
+      "analytical_m3": 0.0016111886436928474,
+      "what": "CAD blade volume vs independent numerical integration of exact NACA sections. Band 10 % because the analytical target neglects section rotation and sweep along a curved stacking line, and the CAD sections are decimated to MIN_SEG_M."
+    },
+    "geometry_valid_check2": {
+      "value": [
+        0
+      ],
+      "pass": true,
+      "what": "Check2()==0 on every body means no geometry errors"
+    },
+    "mapping_and_units": {
+      "value": {
+        "x_min_measured_m": 0.559986413282364,
+        "x_max_measured_m": 1.7237605428094271,
+        "r_root_expected_m": 0.56,
+        "r_tip_expected_m": 1.72375,
+        "pass": true
+      },
+      "pass": true,
+      "what": "radial extent matches the design"
+    },
+    "save_reopen_identical_pct": {
+      "value": 0.0,
+      "limit": 1e-06,
+      "pass": true,
+      "what": "reopened geometry must be numerically identical"
+    },
+    "ALL_PASS": true
+  }
+}

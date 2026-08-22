@@ -1,0 +1,82 @@
+{
+  "part_file": "D:\\Placement_Self_Projects\\Boeing_Aerodynamics\\02_cad\\openfan_blade_v02_G1_VERIFIED.SLDPRT",
+  "file_size_bytes": 548728,
+  "reopened_ok": true,
+  "solid_bodies": 1,
+  "surface_bodies": 0,
+  "volume_m3": 0.001600604869074679,
+  "bbox_m": [
+    0.559986413282364,
+    -0.11050062356332378,
+    -0.7471359095175993,
+    1.7237605428094271,
+    0.11207374916328856,
+    0.010027278133701521
+  ],
+  "check2": 0,
+  "check1": 1,
+  "topology": {
+    "n_faces": 16,
+    "face_kinds": {
+      "plane": 2,
+      "cylinder": 0,
+      "cone": 0,
+      "sphere": 0,
+      "torus": 0,
+      "bspline_or_other": 14
+    },
+    "n_face_edge_references": 60,
+    "note_on_edge_vertex_counts": "Unique edge/vertex counts via COM object identity are unreliable under late binding (GetEdges may return new wrapper instances per call) and are not reported as a precise number for that reason -- not because the check was skipped."
+  },
+  "gate_G1": {
+    "reopened_and_measurable": {
+      "value": true,
+      "pass": true
+    },
+    "single_solid_body": {
+      "value": 1,
+      "expected": 1,
+      "pass": true
+    },
+    "zero_unintended_surface_bodies": {
+      "value": 0,
+      "pass": true
+    },
+    "check2_matches_known_good_reference": {
+      "value": 0,
+      "expected": 0,
+      "pass": true,
+      "what": "all 7 known-good reference bodies in _SolidWorks_API_Final_Automation_Test return Check2()==0"
+    },
+    "volume_within_independent_bracket": {
+      "value": 0.001600604869074679,
+      "lower_bound_m3": 0.0015940123220954522,
+      "upper_bound_m3": 0.0016111886436928474,
+      "pass": true,
+      "what": "bracket computed WITHOUT SolidWorks from the exact final section data (see blade_geometry_reference.json): [48-point polygon lower bound, smooth closed-form upper bound]"
+    },
+    "radial_root_error_m": {
+      "value": 1.3586717636071555e-05,
+      "limit": 0.02,
+      "pass": true
+    },
+    "radial_tip_error_m": {
+      "value": 1.0542809427249722e-05,
+      "limit": 0.02,
+      "pass": true
+    },
+    "no_negative_or_degenerate_bbox": {
+      "value": [
+        0.559986413282364,
+        -0.11050062356332378,
+        -0.7471359095175993,
+        1.7237605428094271,
+        0.11207374916328856,
+        0.010027278133701521
+      ],
+      "pass": true,
+      "what": "catches the v01 wrong-axis-spinner failure mode (negative/absurd bbox extent) directly"
+    },
+    "ALL_PASS": true
+  }
+}

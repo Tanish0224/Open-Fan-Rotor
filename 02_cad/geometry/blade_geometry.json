@@ -1,0 +1,40 @@
+{
+  "coordinate_system": {
+    "axis": "+Z downstream",
+    "radial_reference_blade": "+X",
+    "tangential": "+Y",
+    "units": "metres",
+    "beta_convention": "from rotor plane (tangential) toward axial",
+    "stacking": "50 % chord"
+  },
+  "blade_extent": {
+    "r_over_R_start": 0.32,
+    "r_over_R_end": 0.985,
+    "n_cad_sections": 21,
+    "n_points_per_section": 101,
+    "NOTE": "Adkins-Liebeck drives chord to zero at hub and tip; the aerodynamic blade is built between these limits and the excluded load is quantified below."
+  },
+  "geometry": {
+    "n_blades": 16,
+    "R_m": 1.75,
+    "R_hub_m": 0.49000000000000005,
+    "chord_root_cad_m": 0.04863675963771868,
+    "chord_max_m": 0.2784203443310996,
+    "chord_tip_cad_m": 0.14484184608586143,
+    "beta_root_cad_deg": 74.57640730519269,
+    "beta_tip_cad_deg": 48.73492285160405,
+    "sweep_tip_deg": 44.19233413662845,
+    "tangential_sweep_offset_tip_m": 0.6996551626146198
+  },
+  "INDEPENDENT_VOLUME_TARGET": {
+    "one_blade_m3": 0.0016111886436928474,
+    "all_blades_m3": 0.02577901829908556,
+    "method": "numerical integration of exact NACA 4-digit section areas along the span -- computed WITHOUT SolidWorks, and used as the independent target for CAD verification (gate G1)",
+    "CAVEAT": "this target neglects the small volume change caused by section rotation and sweep along a curved stacking line; a few-percent CAD-vs-analytical difference is expected and the acceptance band is set accordingly"
+  },
+  "load_excluded_by_cad_truncation": {
+    "thrust_full_span_N": 14451.541486996388,
+    "thrust_cad_span_N": 14028.25995332488,
+    "excluded_pct": 2.928971515269707
+  }
+}

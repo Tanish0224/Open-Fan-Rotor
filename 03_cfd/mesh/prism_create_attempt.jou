@@ -1,0 +1,13 @@
+/file/read-mesh
+domain_named_checkpoint2.msh.h5
+/mesh/prism/create
+hub
+blade
+
+uniform
+0.0001
+1.2
+5
+(system "echo PRISM_PROMPT_PROBE2_DONE")
+exit
+yes

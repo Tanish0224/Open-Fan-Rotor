@@ -1,0 +1,77 @@
+{
+  "part_file": "D:\\Placement_Self_Projects\\Boeing_Aerodynamics\\02_cad\\openfan_blade_v01.SLDPRT",
+  "file_size_bytes": 697997,
+  "reopened_ok": true,
+  "solid_bodies": 1,
+  "surface_bodies": 0,
+  "body_volumes_m3": [
+    0.0015867147256197161
+  ],
+  "total_volume_m3": 0.0015867147256197161,
+  "check2_all_bodies": [
+    6
+  ],
+  "bbox_m": [
+    0.5599999000000001,
+    -0.11351287227848919,
+    -0.747125466708172,
+    1.7237501,
+    0.11468330249178116,
+    0.009998516768675953
+  ],
+  "gate_G1": {
+    "reopened_and_measurable": {
+      "value": true,
+      "pass": true,
+      "what": "the saved file reopens and yields a measurable solid (S36.8)"
+    },
+    "single_blade_body": {
+      "value": 1,
+      "expected": 1,
+      "pass": true,
+      "what": "the CFD master is ONE blade (22.5 deg sector)"
+    },
+    "blade_volume_vs_analytical_pct": {
+      "value": 1.518997677207868,
+      "limit": 10.0,
+      "pass": true,
+      "cad_m3": 0.0015867147256197161,
+      "analytical_m3": 0.0016111886436928474,
+      "what": "CAD volume vs independent numerical integration of the exact NACA sections, computed WITHOUT SolidWorks"
+    },
+    "radial_root_error_m": {
+      "value": 9.999999994736442e-08,
+      "limit": 0.02,
+      "pass": true,
+      "measured": 0.5599999000000001,
+      "expected": 0.56,
+      "what": "blade root radius matches the design"
+    },
+    "radial_tip_error_m": {
+      "value": 1.0000000005838672e-07,
+      "limit": 0.02,
+      "pass": true,
+      "measured": 1.7237501,
+      "expected": 1.72375,
+      "what": "blade tip radius matches the design"
+    },
+    "geometry_valid_check2": {
+      "value": [
+        6
+      ],
+      "pass": false,
+      "what": "Check2()==0 means no geometry errors; all 7 known-good reference bodies in _SolidWorks_API_Final_Automation_Test return 0, so a non-zero value here is a REAL defect"
+    },
+    "ALL_PASS": false
+  },
+  "provenance": {
+    "design_table": "D:\\Placement_Self_Projects\\Boeing_Aerodynamics\\01_design\\results\\design_table.csv",
+    "n_cad_sections": 21,
+    "sketch_points_per_section": 48,
+    "cad_span_r_over_R": [
+      0.32,
+      0.985
+    ],
+    "no_dimension_typed_by_hand": true
+  }
+}

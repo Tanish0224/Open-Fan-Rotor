@@ -1,0 +1,106 @@
+{
+  "master": "D:\\Placement_Self_Projects\\Boeing_Aerodynamics\\02_cad\\openfan_blade_v02_G1_VERIFIED.SLDPRT",
+  "steps": [
+    {
+      "label": "master_as_opened",
+      "solid_bodies": 1,
+      "surface_bodies": 0,
+      "volumes_m3": [
+        0.0016006048690746782
+      ],
+      "check2_all_bodies": [
+        0
+      ],
+      "bbox_m": [
+        0.559986413282364,
+        -0.11050062356332378,
+        -0.7471359095175993,
+        1.7237605428094271,
+        0.11207374916328856,
+        0.010027278133701521
+      ]
+    },
+    {
+      "label": "derivative_reopened_and_identity_verified",
+      "path": "D:\\Placement_Self_Projects\\Boeing_Aerodynamics\\03_cfd\\geometry_transfer\\domain_CFG-ISO_v01.SLDPRT",
+      "blade_vol_delta_pct": 5.418962260747288e-14
+    },
+    {
+      "label": "meridional_sketch_created",
+      "r_hub": 0.49,
+      "r_farfield": 7.0,
+      "z_upstream": -7.0,
+      "z_downstream": 10.5
+    },
+    {
+      "label": "wedge_domain_revolved",
+      "solid_bodies": 2,
+      "surface_bodies": 0,
+      "volumes_m3": [
+        167.54471959506418,
+        0.0016006048690746773
+      ],
+      "check2_all_bodies": [
+        0,
+        0
+      ],
+      "bbox_m": [
+        0.45270097093053047,
+        -0.11050062356332378,
+        -7.0,
+        7.0,
+        2.6787840265556286,
+        10.5
+      ]
+    },
+    {
+      "label": "after_boolean_subtract",
+      "solid_bodies": 1,
+      "surface_bodies": 0,
+      "volumes_m3": [
+        167.544116901618
+      ],
+      "check2_all_bodies": [
+        0
+      ],
+      "bbox_m": [
+        0.45270097093053047,
+        -0.001573563514388955,
+        -7.0,
+        7.0,
+        2.6787840265556286,
+        10.5
+      ]
+    }
+  ],
+  "solidworks_version": "34.3.2",
+  "final": {
+    "domain_volume_m3": 167.544116901618,
+    "wedge_volume_analytic_m3": 167.54471959506415,
+    "expected_domain_volume_m3": 167.54311899019507,
+    "delta_vs_analytic_pct": 0.0005956146865014221,
+    "check2": 0,
+    "bbox_m": [
+      0.45270097093053047,
+      -0.001573563514388955,
+      -7.0,
+      7.0,
+      2.6787840265556286,
+      10.5
+    ],
+    "domain_params": {
+      "upstream_m": 7.0,
+      "downstream_m": 10.5,
+      "r_hub_m": 0.49,
+      "r_farfield_m": 7.0,
+      "sector_deg": 22.5
+    }
+  },
+  "reopen_check": {
+    "n_bodies": 1,
+    "volume_m3": 167.54411690161803,
+    "delta_vs_saved_pct": 1.6963716754729893e-14,
+    "check2": 0
+  },
+  "reopened_and_verified": true
+}

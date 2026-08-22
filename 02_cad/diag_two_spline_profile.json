@@ -1,0 +1,31 @@
+{
+  "splines_ok": [
+    true,
+    true,
+    true
+  ],
+  "le_index": [
+    24,
+    24,
+    24
+  ],
+  "points_per_section": [
+    48,
+    48,
+    48
+  ],
+  "solids": 1,
+  "returned": "Loft1",
+  "volume_m3": 0.0013707806105992138,
+  "check2": 0,
+  "check": 1,
+  "n_faces": 4,
+  "bbox_m": [
+    0.55999,
+    -0.11074,
+    -0.74713,
+    1.72376,
+    0.11309,
+    0.01002
+  ]
+}
