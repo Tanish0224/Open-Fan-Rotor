@@ -11,12 +11,12 @@ dimension traces back through a script to a governing equation.
 
 ## Objective
 
-Open-fan (unducted) propulsion is back under serious consideration because bypass ratio — the
-main lever on propulsive efficiency — is running out of room inside a conventional ducted
+Open-fan (unducted) propulsion is back under serious consideration because bypass ratio, the
+main lever on propulsive efficiency, is running out of room inside a conventional ducted
 nacelle. Removing the duct raises efficiency further but reopens a classical problem: the blade
 tip now sees a **supersonic relative flow condition** even at a modest flight Mach, and blade
-**sweep** — rather than a duct — becomes the primary tool for managing it, as it did in 1980s
-advanced-turboprop programs. This project designs, builds, and verifies a rotor blade around
+**sweep**, rather than a duct, becomes the primary tool for managing it, as it did in 1980s
+advanced turboprop programs. This project designs, builds, and verifies a rotor blade around
 exactly that problem.
 
 ## Engineering approach
