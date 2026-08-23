@@ -5,7 +5,7 @@ problem an unducted architecture reintroduces, built as fully parametric CAD, an
 verified at every completed stage.** This is not a downloaded or hand-modeled CAD file — every
 dimension traces back through a script to a governing equation.
 
-**Project ID:** BA-OF-01 · **Stack:** Python (NumPy/SciPy) · SolidWorks 2026 · ANSYS Fluent 2025 R1
+**Stack:** SolidWorks 2026 · ANSYS Fluent 2025 R1 Python · (NumPy/SciPy)
 
 ---
 
