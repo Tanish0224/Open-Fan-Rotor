@@ -2,7 +2,7 @@
 
 **A swept open-fan rotor blade, designed from first principles for the tip-compressibility
 problem an unducted architecture reintroduces, built as fully parametric CAD, and independently
-verified at every completed stage.** This is not a downloaded or hand-modeled CAD file — every
+verified at every completed stage.** This is not a downloaded or hand-modeled CAD file, every
 dimension traces back through a script to a governing equation.
 
 **Stack:** SolidWorks 2026 · ANSYS Fluent 2025 R1 Python · (NumPy/SciPy)
@@ -92,7 +92,6 @@ verification detail for anyone who wants to go deeper:
 | [`reports/BOEING_OPEN_FAN_FINAL_REPORT.md`](reports/BOEING_OPEN_FAN_FINAL_REPORT.md) | The full technical report — design equations, CAD construction, CFD preprocessing methodology |
 | [`reports/BOEING_OPEN_FAN_PROJECT_REPORT.md`](reports/BOEING_OPEN_FAN_PROJECT_REPORT.md) | Extended report with the full verification hierarchy and continuation plan |
 | [`02_cad/CAD_CHECK2_DIAGNOSTIC.md`](02_cad/CAD_CHECK2_DIAGNOSTIC.md), [`02_cad/failure_history/`](02_cad/failure_history/) | The first CAD construction attempt failed its own verification gate; this is the root-cause diagnosis and the documented recovery, kept visible rather than hidden |
-| [`PROJECT_STATUS.md`](PROJECT_STATUS.md) | Current blocker and exact resume point for continued work |
 | [`03_cfd/CFD_STATUS.md`](03_cfd/CFD_STATUS.md) | Detailed CFD-stage status, including how boundary/periodic topology was independently verified |
 
 ## Current limitations
@@ -100,7 +99,7 @@ verification detail for anyone who wants to go deeper:
 - No volume mesh, solver run, or CFD-derived performance number exists.
 - No experimental or published-benchmark validation has been attempted.
 - No installed (wing-integrated) configuration exists.
-- The 16-blade full-rotor CAD assembly is deferred — a SolidWorks installation-level limitation,
+- The 16-blade full-rotor CAD assembly is deferred, a SolidWorks installation-level limitation,
   not required for the CFD domain, which only needs the single-blade periodic sector.
 - The hub is modeled as a plain cylinder; the spinner fairing is not yet built.
 
