@@ -1,4 +1,4 @@
-# Boeing Open-Fan Rotor — First-Principles Aerodynamic Design and Verified CAD
+# Boeing Open-Fan Rotor — Aerodynamic Design and Verified CAD
 
 **A swept open-fan rotor blade, designed from first principles for the tip-compressibility
 problem an unducted architecture reintroduces, built as fully parametric CAD, and independently
