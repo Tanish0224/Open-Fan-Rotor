@@ -38,23 +38,20 @@ that matter in the CFD campaign:
 
 ## Key results
 
-Design RPM (1294.5 rpm), steady MRF, k-ω SST, 360° domain with all 16 blades.
+V08 is the reference case and has the highest recorded design-RPM efficiency in this CFD campaign, at
+1294.5 rpm and Mach 0.75.
 
-| Case | Change | Thrust [N] | Torque [N·m] | Power [MW] | η_p |
-|---|---|---:|---:|---:|---:|
-| V05n16 | NACA 16-series sections | 4997.55 | 16379.44 | 2.2204 | 0.50057 |
-| V06e | v06 BEM redesign | 5809.08 | 17987.46 | 2.4384 | 0.52984 |
-| **V08** | trailing edge 0.020c → 0.012c | **6548.01** | **18788.06** | **2.5469** | **0.57179** |
-| V10 | V08, uniform de-pitch −1.77° | 3224.33 | 12062.04 | 1.6351 | 0.43856 |
-| V12 | V08, sweep +6° | 5726.35 | 17587.74 | 2.3842 | 0.53417 |
-| V15 | V08, root de-pitch −2.40° → 0 at r/R 0.55 | 6057.41 | 17851.56 | 2.4199 | 0.55670 |
+| Thrust | Torque | Shaft power | η_p |
+|---:|---:|---:|---:|
+| 6548.01 N | 18788.06 N·m | 2.5469 MW | 0.57179 |
 
-V08 is the highest-efficiency case at design RPM and produces about 45 % of the design thrust. Its thrust and
-torque vary by 1.93 % / 1.12 % over the full second-order history, against a 1 % criterion, and by
-0.80 % / 0.47 % over the last five checkpoints. Each case uses a single 6–7 M-cell tetrahedral mesh without prism
-layers. Mesh independence and experimental validation were not assessed. The 0.75 target was not reached.
+- V08 produced about 45 % of the 14,451.5 N design-thrust value; the 0.75 efficiency target was not reached.
+- Thrust and torque vary by 1.93 % / 1.12 % over the full second-order history, against a 1 % convergence
+  criterion; over the last five checkpoints the variation is 0.80 % / 0.47 %.
+- Each case uses a single mesh without prism layers. Mesh independence and experimental validation were not
+  assessed.
 
-![V08 summary](figures/cfd/cfd_v08_summary.svg)
+Results for every case are in [`RESULTS.md`](RESULTS.md).
 
 ## What changed
 
