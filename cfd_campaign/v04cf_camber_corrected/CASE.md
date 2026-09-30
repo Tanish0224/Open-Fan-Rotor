@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| Classification | DIAGNOSTIC (camber corrected; unsettled, diverged at iteration 246) |
+| Classification | diagnostic (camber corrected; diverged at iteration 246) |
 | Operating point | 1294.5 rpm (ω = 135.559 rad/s), flight Mach 0.75, 10,668 m ISA |
 | Change | Single change from V03: the sign of the camber line (the section camber was on the wrong side of the chord for the direction of rotation). |
 | Mesh | 5,943,535 (min orthogonal quality 0.00325; 9 cells below 0.01); no prism layers |
@@ -11,7 +11,7 @@
 | Shaft power P = Q·\|ω\| | 2.5827 MW |
 | Propulsive efficiency η = T·V0/P | 0.36252 |
 | Convergence windows | not evaluable (4 stored checkpoint(s)) |
-| Validation | none — no experimental or benchmark comparison exists |
+| Validation | none (no experimental or benchmark data) |
 
 ## Prediction
 
@@ -19,7 +19,7 @@ None registered.
 
 ## Outcome
 
-DIAGNOSTIC. Thrust became positive at design RPM. The case did not settle: it diverged at iteration 246 and only four checkpoints exist. Two values are stored (last checkpoint and window mean); both are kept.
+Thrust became positive at design RPM. The case did not settle: it diverged at iteration 246 and only four checkpoints exist. Two values are stored (last checkpoint and window mean); both are kept.
 
 ## Notes
 

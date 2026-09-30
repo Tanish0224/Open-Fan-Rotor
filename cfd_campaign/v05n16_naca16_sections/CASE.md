@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| Classification | DESIGN-RPM CFD OBSERVATION |
+| Classification | design iteration, design RPM |
 | Operating point | 1294.5 rpm (ω = 135.559 rad/s), flight Mach 0.75, 10,668 m ISA |
 | Change | Section family changed to NACA 16-series thickness on an a = 1.0 mean line; chord, t/c, design C_l, sweep and trailing edge held. |
 | Mesh | 6,700,165 (min orthogonal quality 0.00180; 572 cells below 0.01); no prism layers |
@@ -12,15 +12,15 @@
 | Propulsive efficiency η = T·V0/P | 0.50057 |
 | Rolling window (last 5 checkpoints), T / Q | 0.64 % / 0.32 % — within the 1 % bound |
 | Full second-order history (S2–S10), T / Q | 1.42 % / 0.73 % — outside the 1 % bound |
-| Validation | none — no experimental or benchmark comparison exists |
+| Validation | none (no experimental or benchmark data) |
 
 ## Prediction
 
-Pre-registered η band 0.434–0.517 (central 0.4755), written before the solve (file `v05_prediction.json`, see the unpublished-evidence register).
+η band 0.434–0.517 (central 0.4755), written before the solve (file `v05_prediction.json`, see the unpublished-evidence register).
 
 ## Outcome
 
-The recorded η fell inside the pre-registered band. Fails the full-history convergence window.
+η fell inside the predicted band. The case fails the full-history convergence window.
 
 ## Notes
 

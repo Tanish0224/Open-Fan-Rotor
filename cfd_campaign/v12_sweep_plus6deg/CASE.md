@@ -1,8 +1,8 @@
-# V12 — sweep +6° (controlled experiment)
+# V12 — sweep +6°
 
 | | |
 |---|---|
-| Classification | DESIGN-RPM CONTROLLED EXPERIMENT |
+| Classification | experiment on V08, design RPM |
 | Operating point | 1294.5 rpm (ω = -135.559 rad/s), flight Mach 0.75, 10,668 m ISA |
 | Change | Sweep angle increased by 6.00° along the span from V08. |
 | Mesh | 7,173,817 (min orthogonal quality 0.00069; 193 cells below 0.01); no prism layers |
@@ -15,15 +15,15 @@
 | Residuals (continuity) | 1 → 0.00132 = 2.88 orders over 600 iterations (≥ 4 orders required by the G2 criterion) |
 | Trailing edge | CAD parameter 0.012c; meshed (outboard mean, r/R ≥ 0.70) 0.0212c |
 | Blade y+ (node-based) | median 430.3, 95th percentile 566.3, max 3084.0; 93 % of nodes above 300 |
-| Validation | none — no experimental or benchmark comparison exists |
+| Validation | none (no experimental or benchmark data) |
 
 ## Prediction
 
-Two pre-registered bands: A 0.579–0.652 (before CAD); B 0.575–0.647 (corrected basis, before the solve).
+Two predicted bands, both written before the run: A 0.579–0.652 (before CAD); B 0.575–0.647 (corrected basis, before the solve).
 
 ## Outcome
 
-PREDICTION FAILED: η 0.534, below both bands. The evidence on the normal-Mach mechanism was mixed (lift-slope rose at 2 of 9 stations and fell at 5). Interpretation is qualified by two confounds.
+Prediction failed: η 0.534, below both bands. Evidence for the normal-Mach mechanism was mixed (lift slope rose at 2 of 9 stations and fell at 5), and the mesh and trailing-edge differences below confound the comparison.
 
 ## Notes
 

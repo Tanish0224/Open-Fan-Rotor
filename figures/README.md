@@ -6,7 +6,7 @@ typed by hand; each annotation is computed from the plotted case's own data.
 The three blade-to-blade field images also need the field exports (`b2b_r75_<case>.csv`). Those are not included
 because of their size; they are identified by hash in `reproducibility/unpublished_evidence_register.json`.
 
-Every CFD figure states its case, operating point, and "recorded CFD result — not validated".
+Every CFD figure names its case and operating point.
 
 ## CFD (`cfd/`)
 
@@ -19,8 +19,8 @@ Every CFD figure states its case, operating point, and "recorded CFD result — 
 | `cfd_radial_loading_lineage_v04cf_v05n16.svg` | V04cf, V05n16 — design RPM | `blade_loading_*.json`; BEM from `design_summary.json` | The same, for the earlier cases, against the v03-family BEM. V04cf is unsettled. |
 | `cfd_v11_1000rpm_offdesign_radial_loading.svg` | V11 — **1000 rpm, OFF-DESIGN** | `blade_loading_v11.json` | Sectional thrust loading. No BEM curve: the BEM design exists only for design RPM. |
 | `cfd_v08_chordwise_cp.svg` | V08 — design RPM | `blade_loading_v08.json` | Chordwise pressure coefficient at four stations. CAD trailing edge 0.012c; meshed 0.0188c. |
-| `cfd_v08_summary.svg` | V08 — design RPM | `performance_result_v08_omega135p559.json`, orthoquality, TE, BEM files | Headline values with both convergence windows, the mesh and the validation status in the same graphic. |
-| `cfd_controlled_experiments_vs_v08.svg` | V10, V12, V15, V14 relative to V08 — design RPM | the case result files | Change in thrust, torque and efficiency against V08's full-history spread. V14 is a boundary-condition diagnostic. V11 is excluded. The title states that V10, V12 and V15 are not clean single-variable comparisons (their meshes differ from V08's: V10 +0.4 %, V12 +9.1 %, V15 −0.4 %; the meshed trailing edges of V12 and V15 also differ; see LIMITATIONS 3 and 15). |
+| `cfd_v08_summary.svg` | V08 — design RPM | `performance_result_v08_omega135p559.json`, orthoquality, TE, BEM files | V08's headline values, both convergence windows, the mesh and the trailing edge on one card. |
+| `cfd_controlled_experiments_vs_v08.svg` | V10, V12, V15, V14 relative to V08 — design RPM | the case result files | Change in thrust, torque and efficiency relative to V08, against V08's full-history thrust spread. V14 is a hub boundary-condition test; V11 is excluded. The meshes of V10, V12 and V15 differ from V08's by +0.4 %, +9.1 % and −0.4 % in cell count, and the meshed trailing edges of V12 and V15 also differ. |
 | `bem_reference_vs_cfd_design_rpm.svg` | design-RPM cases | case results; BEM of the matching family | BEM design intent against recorded CFD thrust and torque. Not at matched thrust; BEM is a reference, not a prediction. |
 | `cfd_camber_correction_v03_v04cf.svg` | V03, V04cf — design RPM | the two result files | Net drag becomes positive thrust after the camber sign is corrected. V04cf did not settle. |
 | `cfd_mach_b2b_r075_design_rpm.png` | V08, V12, V14, V15 — design RPM | field exports (not included) | Absolute-frame Mach on the blade-to-blade surface at r/R 0.75, on one common colour scale. |

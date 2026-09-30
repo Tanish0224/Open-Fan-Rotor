@@ -1,8 +1,8 @@
-# V14 — hub-wall boundary-condition diagnostic (not a design)
+# V14 — hub-wall boundary-condition test
 
 | | |
 |---|---|
-| Classification | BOUNDARY-CONDITION DIAGNOSTIC (design RPM) |
+| Classification | hub boundary-condition test, design RPM |
 | Operating point | 1294.5 rpm (ω = -135.559 rad/s), flight Mach 0.75, 10,668 m ISA |
 | Change | V08 case with one boundary condition changed: hub walls set to zero shear (slip). Geometry, mesh and operating point identical to V08. No new CAD. |
 | Mesh | identical to V08 (same case file); no prism layers |
@@ -14,15 +14,15 @@
 | Full second-order history (S2–S10), T / Q | 2.22 % / 1.19 % — outside the 1 % bound |
 | Residuals (continuity) | 1 → 0.000995 = 3.00 orders over 593 iterations (≥ 4 orders required by the G2 criterion) |
 | Blade y+ (node-based) | median 434.8, 95th percentile 557.0, max 1914.8; 92 % of nodes above 300 |
-| Validation | none — no experimental or benchmark comparison exists |
+| Validation | none (no experimental or benchmark data) |
 
 ## Prediction
 
-η band 0.59–0.64; primary gate: root thrust loading at r/R 0.40 must become less negative. Written after the case was built and before the solve.
+η band 0.59–0.64; main check: root thrust loading at r/R 0.40 must become less negative. Written after the case was built and before the solve.
 
 ## Outcome
 
-BOUNDARY-CONDITION DIAGNOSTIC. The root windmill state deepened (dT/dr at r/R 0.40 from −1369 to −1858 N/m), so the hub boundary layer is not its cause in this model. Its η must not be read as an achievable design result.
+The root windmill state deepened (dT/dr at r/R 0.40 from −1369 to −1858 N/m), so the hub boundary layer is not its cause in this model. Its η is a diagnostic value, not a design result.
 
 ## Notes
 

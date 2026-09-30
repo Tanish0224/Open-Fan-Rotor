@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| Classification | DESIGN-RPM CFD OBSERVATION |
+| Classification | design iteration, design RPM |
 | Operating point | 1294.5 rpm (ω = 135.559 rad/s), flight Mach 0.75, 10,668 m ISA |
 | Change | BEM redesign: C_l root 0.70 → 0.45, tip 0.40 → 0.26, root t/c 0.20 → 0.12 (more chord). Same thrust design point. Two earlier meshes of this geometry were rejected (memory, wall time); V06e is the third mesh. |
 | Mesh | 6,480,343 (min orthogonal quality 0.00191; 586 cells below 0.01); no prism layers |
@@ -14,7 +14,7 @@
 | Full second-order history (S2–S10), T / Q | 2.06 % / 1.09 % — outside the 1 % bound |
 | Residuals (continuity) | 1 → 0.000999 = 3.00 orders over 592 iterations (≥ 4 orders required by the G2 criterion) |
 | Trailing edge | CAD parameter 0.020c; meshed (outboard mean, r/R ≥ 0.70) 0.0200c |
-| Validation | none — no experimental or benchmark comparison exists |
+| Validation | none (no experimental or benchmark data) |
 
 ## Prediction
 
@@ -22,7 +22,7 @@ No prediction file was registered for this change.
 
 ## Outcome
 
-Recorded result at design RPM. Fails the full-history convergence window.
+The case fails the full-history convergence window.
 
 ## Notes
 

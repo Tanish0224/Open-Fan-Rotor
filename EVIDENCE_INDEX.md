@@ -1,12 +1,12 @@
 # Evidence index
 
-This index says where each major claim comes from.
+Where each number and claim in this repository comes from.
 
 **Evidence classes.**
 
 | Class | Meaning |
 |---|---|
-| **PRIMARY** | a recorded file produced by the design code, CAD gate, solver or its extraction, published unchanged |
+| **PRIMARY** | a recorded file produced by the design code, CAD check, solver or its extraction, published unchanged |
 | **DERIVED** | computed for this repository from primary data (the source is stated). The comparison scripts are published; the scripts that extracted the residual histories, y⁺ statistics and sectional and loading files are not (see `reproducibility/REPRODUCE.md`) |
 | **DESIGN INTENT** | a BEM/analytical design value, not a measurement |
 | **DIAGNOSTIC** | a real result that answers a diagnostic question, not a performance question |
@@ -30,7 +30,7 @@ SHA-256, but is not published.
 
 | Claim | Class | Evidence | Method |
 |---|---|---|---|
-| PRIME passes a 12-check geometry gate (before saving and after re-opening) | PRIMARY | `structural/verification/blade_v03_G1_PRIME_verification.json` | independent re-open and measurement |
+| PRIME passes a 12-check geometry check (before saving and after re-opening) | PRIMARY | `structural/verification/blade_v03_G1_PRIME_verification.json` | independent re-open and measurement |
 | PRIME identity | PRIMARY | SHA-256 in `cad/README.md`; register (native file) | hash |
 | v02 was built with 0.757 m axial rake and a 1.879 m tip | PRIMARY | same file (`v02_Z_span_m`, `v02_true_radius_max_m`) | coordinate readback |
 | Camber on the wrong side of the chord in V03 (and in PRIME's section code) | PRIMARY | register: `camber_orientation_check.json`, `camber_stl_check.json`, `STAGE35_CAMBER_INVERSION_ROOT_CAUSE.md` | mean-line direction measured on the solved blade, the CAD source and the exported CAD surfaces |

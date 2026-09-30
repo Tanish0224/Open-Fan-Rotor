@@ -253,13 +253,13 @@ def fig_v08_card():
     fig, ax = plt.subplots(figsize=(12, 5.2))
     ax.axis("off")
     lines = [
-        ("V08 — highest recorded design-RPM efficiency in this CFD campaign", 17, "bold"),
+        ("V08 — highest design-RPM efficiency in the CFD campaign", 17, "bold"),
         ("Design RPM %.1f rpm (ω = %.3f rad/s), flight Mach %.2f" % (rpm, d["operating_point"]["omega"], d["operating_point"]["mach"]), 12, "normal"),
         ("T = %.2f N     Q = %.2f N·m     P = %.4f MW     η_p = %.5f" % (d["T_N"], d["Q_Nm"], d["P_shaft_W"] / 1e6, d["eta_p"]), 15, "bold"),
-        ("Rolling window (last 5 checkpoints): T %.2f %%, Q %.2f %% — within the 1 %% bound" % (100 * r[0], 100 * r[1]), 12, "normal"),
-        ("Full second-order history (S2–S10): T %.2f %%, Q %.2f %% — does NOT satisfy the 1 %% bound" % (100 * fh[0], 100 * fh[1]), 12, "bold"),
-        ("Single mesh ({:,} cells), no prism layers, no mesh-independence study".format(cells), 12, "normal"),
-        ("No experimental or benchmark comparison exists: a recorded CFD observation, not validated performance.", 12, "bold"),
+        ("Rolling window (last 5 checkpoints): T %.2f %%, Q %.2f %% (within 1 %%)" % (100 * r[0], 100 * r[1]), 12, "normal"),
+        ("Full second-order history (S2–S10): T %.2f %%, Q %.2f %% (above the 1 %% criterion)" % (100 * fh[0], 100 * fh[1]), 12, "bold"),
+        ("One mesh ({:,} cells), no prism layers; mesh independence not assessed".format(cells), 12, "normal"),
+        ("No experimental or benchmark data to compare against.", 12, "normal"),
         ("CAD trailing-edge parameter %.3fc (meshed %.4fc). BEM design thrust (v06 family) %.1f N; V08 reached %.1f %% of it." % (
             te["intended_te_frac"], te["outboard_mean_te_over_c"], tb, 100 * d["T_N"] / tb), 11, "normal"),
     ]
@@ -293,9 +293,8 @@ def fig_experiments():
     ax.set_xticks(x)
     ax.set_xticklabels(names)
     ax.set_ylabel("change relative to V08  [%]")
-    ax.set_title("Controlled design experiments on the V08 reference case — design RPM (ω = 135.559 rad/s)\n"
-                 "each missed its pre-registered efficiency prediction; V14 is a boundary-condition diagnostic, not a design\n"
-                 "V10, V12 and V15 are not clean single-variable comparisons: their meshes differ from V08's (LIMITATIONS 3, 15)")
+    ax.set_title("Design changes evaluated around the V08 reference case — design RPM (ω = 135.559 rad/s)\n"
+                 "V14 is a hub boundary-condition test on the V08 geometry, not a design change")
     ax.legend(loc="lower right")
     fig.text(0.01, 0.01, "V11 (1000 rpm, off-design) is excluded: different operating point. " + STAMP, fontsize=9)
     fig.tight_layout(rect=(0, 0.03, 1, 1))

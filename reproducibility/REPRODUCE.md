@@ -1,7 +1,6 @@
 # Reproducibility
 
-The table below says what an external engineer can and cannot reproduce from this repository. "The file exists
-somewhere" is not the test; the test is whether someone holding only this repository can re-derive the result.
+What someone with only this repository can and cannot re-derive.
 
 | Stage | Status | What is here | What is missing |
 |---|---|---|---|
@@ -50,6 +49,6 @@ included. They are:
 - the V08 mesh, case and solution files;
 - the PRIME native CAD file;
 - the FEA stage reports;
-- CFD and design audit records.
+- CFD and design check records.
 
 Their identity can be checked against this register if they are supplied for review.

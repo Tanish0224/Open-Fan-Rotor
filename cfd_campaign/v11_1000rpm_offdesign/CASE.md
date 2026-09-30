@@ -1,8 +1,8 @@
-# V11 — 1000 rpm OFF-DESIGN (separate investigation)
+# V11 — 1000 rpm off-design case
 
 | | |
 |---|---|
-| Classification | OFF-DESIGN CFD OBSERVATION (1000 rpm) |
+| Classification | off-design case (1000 rpm) |
 | Operating point | 1000.0 rpm (ω = -104.72 rad/s), flight Mach 0.75, 10,668 m ISA |
 | Change | Rotational speed 1294.5 → 1000 rpm AND the blade re-twisted for the new speed (+4.07° root to +7.35° tip). Two coupled changes; their effects cannot be separated. |
 | Mesh | 6,545,217 (min orthogonal quality 0.00070; 375 cells below 0.01); no prism layers |
@@ -15,15 +15,15 @@
 | Residuals (continuity) | 1 → 0.000998 = 3.00 orders over 547 iterations (≥ 4 orders required by the G2 criterion) |
 | Trailing edge | CAD parameter 0.012c; meshed (outboard mean, r/R ≥ 0.70) 0.0182c |
 | Blade y+ (node-based) | median 420.7, 95th percentile 533.5, max 1673.0; 92 % of nodes above 300 |
-| Validation | none — no experimental or benchmark comparison exists |
+| Validation | none (no experimental or benchmark data) |
 
 ## Prediction
 
-Pre-registered η band 0.58–0.67 (central 0.62); primary gate: effective lift-curve slope must rise.
+η band 0.58–0.67 (central 0.62), written before the run; main check: effective lift-curve slope should rise.
 
 ## Outcome
 
-1000 rpm, OFF-DESIGN. The recorded η fell inside its band and both convergence windows pass. This is not a design-RPM result and is not comparable with V08.
+η fell inside its band, and both convergence windows pass. At 1000 rpm, with a re-twisted blade, the case is not comparable with V08.
 
 ## Notes
 
