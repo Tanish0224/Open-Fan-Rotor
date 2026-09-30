@@ -1,0 +1,243 @@
+{
+ "_note": "Derived file written by reproducibility/verify_results.py from the recorded result files. The stored rpm field in some recorded files is stale; operating conditions are taken from omega and the case definition. Windows use a 1 % peak-to-peak bound. These are recorded CFD observations, not validated performance.",
+ "cases": {
+  "v03_diagnostic_drag_state": {
+   "classification": "DIAGNOSTIC (drag state, design RPM)",
+   "result_file": "cfd_campaign/v03_diagnostic_drag_state/performance_result_omega135p559.json",
+   "omega_rad_s": 135.559045147,
+   "rpm_from_omega": 1294.49,
+   "rpm_field_stored": 1294.4935269574726,
+   "rpm_field_consistent_with_omega": true,
+   "thrust_N": -845.77679,
+   "torque_Nm": 5367.0989,
+   "shaft_power_W": 727558.802093514,
+   "eta_p": null,
+   "P_recomputed_matches": true,
+   "eta_recomputed_matches": true,
+   "n_checkpoints": 1,
+   "rolling_window_T_Q_pct": null,
+   "rolling_window_pass": null,
+   "full_history_T_Q_pct": null,
+   "full_history_pass": null
+  },
+  "v04cf_camber_corrected": {
+   "classification": "DIAGNOSTIC (camber corrected; unsettled, diverged at iteration 246)",
+   "result_file": "cfd_campaign/v04cf_camber_corrected/performance_result_v04cf_omega135p559.json",
+   "omega_rad_s": 135.559045147,
+   "rpm_from_omega": 1294.49,
+   "rpm_field_stored": 1294.4935269574726,
+   "rpm_field_consistent_with_omega": true,
+   "thrust_N": 4209.8808,
+   "torque_Nm": 19052.158,
+   "shaft_power_W": 2582692.346469777,
+   "eta_p": 0.36252248629780065,
+   "P_recomputed_matches": true,
+   "eta_recomputed_matches": true,
+   "n_checkpoints": 4,
+   "rolling_window_T_Q_pct": null,
+   "rolling_window_pass": null,
+   "full_history_T_Q_pct": null,
+   "full_history_pass": null
+  },
+  "v05n16_naca16_sections": {
+   "classification": "DESIGN-RPM CFD OBSERVATION",
+   "result_file": "cfd_campaign/v05n16_naca16_sections/performance_result_v05n16_omega135p559.json",
+   "omega_rad_s": 135.559045147,
+   "rpm_from_omega": 1294.49,
+   "rpm_field_stored": 1294.4935269574726,
+   "rpm_field_consistent_with_omega": true,
+   "thrust_N": 4997.5534,
+   "torque_Nm": 16379.44,
+   "shaft_power_W": 2220381.246442578,
+   "eta_p": 0.5005733435864266,
+   "P_recomputed_matches": true,
+   "eta_recomputed_matches": true,
+   "n_checkpoints": 10,
+   "rolling_window_T_Q_pct": [
+    0.639308,
+    0.32371
+   ],
+   "rolling_window_pass": true,
+   "full_history_T_Q_pct": [
+    1.422522,
+    0.730506
+   ],
+   "full_history_pass": false
+  },
+  "v06e_cl_chord_schedule": {
+   "classification": "DESIGN-RPM CFD OBSERVATION",
+   "result_file": "cfd_campaign/v06e_cl_chord_schedule/performance_result_v06e_omega135p559.json",
+   "omega_rad_s": 135.55904514697121,
+   "rpm_from_omega": 1294.49,
+   "rpm_field_stored": 1294.4935269574726,
+   "rpm_field_consistent_with_omega": true,
+   "thrust_N": 5809.082,
+   "torque_Nm": 17987.463,
+   "shaft_power_W": 2438363.308896474,
+   "eta_p": 0.5298426552010143,
+   "P_recomputed_matches": true,
+   "eta_recomputed_matches": true,
+   "n_checkpoints": 10,
+   "rolling_window_T_Q_pct": [
+    0.866802,
+    0.454721
+   ],
+   "rolling_window_pass": true,
+   "full_history_T_Q_pct": [
+    2.058642,
+    1.092009
+   ],
+   "full_history_pass": false
+  },
+  "v08_reference_case": {
+   "classification": "DESIGN-RPM CFD OBSERVATION (reference case)",
+   "result_file": "cfd_campaign/v08_reference_case/performance_result_v08_omega135p559.json",
+   "omega_rad_s": -135.559045147,
+   "rpm_from_omega": 1294.49,
+   "rpm_field_stored": 1294.4935269574726,
+   "rpm_field_consistent_with_omega": true,
+   "thrust_N": 6548.0111,
+   "torque_Nm": 18788.058,
+   "shaft_power_W": 2546891.202646455,
+   "eta_p": 0.5717903740203069,
+   "P_recomputed_matches": true,
+   "eta_recomputed_matches": true,
+   "n_checkpoints": 10,
+   "rolling_window_T_Q_pct": [
+    0.803712,
+    0.469131
+   ],
+   "rolling_window_pass": true,
+   "full_history_T_Q_pct": [
+    1.927966,
+    1.118961
+   ],
+   "full_history_pass": false
+  },
+  "v10_uniform_depitch": {
+   "classification": "DESIGN-RPM CONTROLLED EXPERIMENT",
+   "result_file": "cfd_campaign/v10_uniform_depitch/performance_result_v10_omega135p559.json",
+   "omega_rad_s": -135.559045147,
+   "rpm_from_omega": 1294.49,
+   "rpm_field_stored": 1294.4935269574726,
+   "rpm_field_consistent_with_omega": true,
+   "thrust_N": 3224.3292,
+   "torque_Nm": 12062.042,
+   "shaft_power_W": 1635118.8960430103,
+   "eta_p": 0.4385588355395278,
+   "P_recomputed_matches": true,
+   "eta_recomputed_matches": true,
+   "n_checkpoints": 10,
+   "rolling_window_T_Q_pct": [
+    1.62711,
+    0.695065
+   ],
+   "rolling_window_pass": false,
+   "full_history_T_Q_pct": [
+    5.446075,
+    2.357185
+   ],
+   "full_history_pass": false
+  },
+  "v11_1000rpm_offdesign": {
+   "classification": "OFF-DESIGN CFD OBSERVATION (1000 rpm)",
+   "result_file": "cfd_campaign/v11_1000rpm_offdesign/performance_result_v11_omega104p720.json",
+   "omega_rad_s": -104.719755,
+   "rpm_from_omega": 1000.0,
+   "rpm_field_stored": 1294.4935269574726,
+   "rpm_field_consistent_with_omega": false,
+   "thrust_N": 5848.0471,
+   "torque_Nm": 18939.194,
+   "shaft_power_W": 1983307.7555774702,
+   "eta_p": 0.6557806196430069,
+   "P_recomputed_matches": true,
+   "eta_recomputed_matches": true,
+   "n_checkpoints": 10,
+   "rolling_window_T_Q_pct": [
+    0.11897,
+    0.069256
+   ],
+   "rolling_window_pass": true,
+   "full_history_T_Q_pct": [
+    0.761681,
+    0.365609
+   ],
+   "full_history_pass": true
+  },
+  "v12_sweep_plus6deg": {
+   "classification": "DESIGN-RPM CONTROLLED EXPERIMENT",
+   "result_file": "cfd_campaign/v12_sweep_plus6deg/performance_result_v12_omega135p559.json",
+   "omega_rad_s": -135.559045147,
+   "rpm_from_omega": 1294.49,
+   "rpm_field_stored": 1294.4935269574726,
+   "rpm_field_consistent_with_omega": true,
+   "thrust_N": 5726.3454,
+   "torque_Nm": 17587.735,
+   "shaft_power_W": 2384176.5628984724,
+   "eta_p": 0.5341668737829518,
+   "P_recomputed_matches": true,
+   "eta_recomputed_matches": true,
+   "n_checkpoints": 10,
+   "rolling_window_T_Q_pct": [
+    0.860342,
+    0.463492
+   ],
+   "rolling_window_pass": true,
+   "full_history_T_Q_pct": [
+    1.954947,
+    1.055851
+   ],
+   "full_history_pass": false
+  },
+  "v14_hub_bc_diagnostic": {
+   "classification": "BOUNDARY-CONDITION DIAGNOSTIC (design RPM)",
+   "result_file": "cfd_campaign/v14_hub_bc_diagnostic/performance_result_v14_omega135p559.json",
+   "omega_rad_s": -135.559045147,
+   "rpm_from_omega": 1294.49,
+   "rpm_field_stored": 1294.4935269574726,
+   "rpm_field_consistent_with_omega": true,
+   "thrust_N": 6247.8907,
+   "torque_Nm": 18406.407,
+   "shaft_power_W": 2495154.9575070566,
+   "eta_p": 0.5568955244597886,
+   "P_recomputed_matches": true,
+   "eta_recomputed_matches": true,
+   "n_checkpoints": 10,
+   "rolling_window_T_Q_pct": [
+    0.830215,
+    0.456174
+   ],
+   "rolling_window_pass": true,
+   "full_history_T_Q_pct": [
+    2.22458,
+    1.194018
+   ],
+   "full_history_pass": false
+  },
+  "v15_root_depitch": {
+   "classification": "DESIGN-RPM CONTROLLED EXPERIMENT",
+   "result_file": "cfd_campaign/v15_root_depitch/performance_result_v15_omega135p559.json",
+   "omega_rad_s": -135.559045147,
+   "rpm_from_omega": 1294.49,
+   "rpm_field_stored": 1294.4935269574726,
+   "rpm_field_consistent_with_omega": true,
+   "thrust_N": 6057.4116,
+   "torque_Nm": 17851.561,
+   "shaft_power_W": 2419940.563543425,
+   "eta_p": 0.5566987058581537,
+   "P_recomputed_matches": true,
+   "eta_recomputed_matches": true,
+   "n_checkpoints": 10,
+   "rolling_window_T_Q_pct": [
+    0.857608,
+    0.488021
+   ],
+   "rolling_window_pass": true,
+   "full_history_T_Q_pct": [
+    2.015002,
+    1.138382
+   ],
+   "full_history_pass": false
+  }
+ }
+}

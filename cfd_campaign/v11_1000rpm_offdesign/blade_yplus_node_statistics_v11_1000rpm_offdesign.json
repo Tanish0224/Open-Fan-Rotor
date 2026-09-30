@@ -1,0 +1,11 @@
+{
+ "_note": "Node-based statistics of wall y+ on the blade surface (not area-weighted). Derived from the blade-surface export identified by sha256.",
+ "source_file": "blade_surface_v11.csv",
+ "source_sha256": "9e12e61bb6de46052e35128b29f006426871b92c1463b92ab2d217d8f7491de1",
+ "n_nodes": 219905,
+ "median": 420.7,
+ "p95": 533.5,
+ "max": 1673.0,
+ "fraction_above_300": 0.915,
+ "fraction_below_30": 0.0
+}

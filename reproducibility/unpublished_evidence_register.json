@@ -1,0 +1,501 @@
+{
+ "_note": "Evidence files that exist but are not published in this repository. Each is identified by file name and SHA-256 so that its identity can be checked if the file is supplied for review.",
+ "items": [
+  {
+   "file": "v05_prediction.json",
+   "sha256": "60bb8101e32b9321ef47dcef76f07956052acf38cbb1c8913b599cb9b1370b94",
+   "bytes": 1737,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v07_prediction.json",
+   "sha256": "5c91b2ff8e840c0c876ad732cefa47572caa00cb43e7581e46d432a77aba20c3",
+   "bytes": 1478,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v08_prediction.json",
+   "sha256": "4ed89e7afaaedec146d6015db76a0d530947f8f8d72d3f8e1b8903ce793bed76",
+   "bytes": 10297,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v08b_prediction.json",
+   "sha256": "5584228070410e388b9f747cde09e6cf037863dc96f5c51d4532c2efbae9d0cf",
+   "bytes": 3530,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v09_prediction.json",
+   "sha256": "40d810dbdac0ed5bb1255ba58f2ad713fed802354bd566eca03db30bae721966",
+   "bytes": 3427,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v09b_prediction.json",
+   "sha256": "eb6463800f2c44a2381fe0752379d1fd49ac3db43c6e1368a5bd603a33895fec",
+   "bytes": 3118,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v10_prediction.json",
+   "sha256": "c9927d3b459edcdfcc642e6294b89a7d5e933fc56cb2a107c52b4b6b7c730dc6",
+   "bytes": 4038,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v11_prediction.json",
+   "sha256": "f192364f4a193eab47e7227126cd86981eac1e32dc4653fedf915d351c458356",
+   "bytes": 4517,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v12_prediction.json",
+   "sha256": "c0375119ea81d3966fe8a588812d490c51c0ac98818776fb527ee36230b8a7fc",
+   "bytes": 7601,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v12b_prediction_corrected_basis.json",
+   "sha256": "de1c7d4d269d8595aed5fd7e5b317f67e460b0b735d50769b58fdaf85bd0481e",
+   "bytes": 4361,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v13_prediction.json",
+   "sha256": "376f4ce4423488ef255b40b4bbda7047953feff39718403bac0becb934aa123f",
+   "bytes": 6187,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v14_prediction.json",
+   "sha256": "779727eecc2320a669be1e0f334f4a5d0acf22c755a3bae30e1e46d7a9c9c7c0",
+   "bytes": 5337,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v15_prediction.json",
+   "sha256": "125061a05491078ea55184da4cb245b72fb235da3d8f06ea36abc081996a9bb0",
+   "bytes": 5554,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v16_prediction.json",
+   "sha256": "82708d399d2a662fdfd48e4e6d4923ba7823289c18ae1d325a35b0f6aec295f8",
+   "bytes": 7992,
+   "category": "prediction",
+   "content": "pre-registered prediction band and falsification clauses",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v10_PITCH_FALSIFIED.json",
+   "sha256": "68835504fd1a92f3cc1846c0cd86d4526dbbd367fad83aa393259087fb7f53d5",
+   "bytes": 5196,
+   "category": "case_record",
+   "content": "case assessment / diagnostic record",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v15_gate_report.json",
+   "sha256": "300faba9c5cb45ab305de37ceeeb934b67b891fdc1d834154b8d406c8d239a15",
+   "bytes": 5998,
+   "category": "case_record",
+   "content": "case assessment / diagnostic record",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "V16_PRESOLVE_SIGN_REVERSAL_AUDIT.json",
+   "sha256": "c50cf9ee620fb359b85b0caeb35cd96803038c5b25766edbf7f38e0cbf6529a9",
+   "bytes": 17945,
+   "category": "case_record",
+   "content": "case assessment / diagnostic record",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v09_TE006_MESH_FAILURE.json",
+   "sha256": "6ae19a491de9eeb2b4c85b9af768ce0f8d923f66c816cfb6992f142c51f280dc",
+   "bytes": 2622,
+   "category": "case_record",
+   "content": "case assessment / diagnostic record",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v13_TET_INIT_FAILED_definitive_root_cause.json",
+   "sha256": "7f4ff8bf5730c70ecc37c8f2192bf38019710adb2ca2b6d79264eee7eec2d455",
+   "bytes": 4984,
+   "category": "case_record",
+   "content": "case assessment / diagnostic record",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "v09b_TE008_DIVERGED.json",
+   "sha256": "b48a506f5d9465ad8453c1a2115937b085ef3816dd3dc18a58cd39eb03d270af",
+   "bytes": 4126,
+   "category": "case_record",
+   "content": "case assessment / diagnostic record",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "operating_points.json",
+   "sha256": "8beb6efb71ca7b42e2e99c1f06767fefd9e53516060ef0eef8b0dc290a8f9d19",
+   "bytes": 28057,
+   "category": "case_record",
+   "content": "case assessment / diagnostic record",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "camber_orientation_check.json",
+   "sha256": "971411a7cc504c4c862660eb6527d1cfd666ae79d423fafcb4293ecd23d4771f",
+   "bytes": 2598,
+   "category": "case_record",
+   "content": "case assessment / diagnostic record",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "camber_stl_check.json",
+   "sha256": "673b0cac437904daecb3a4aa49ab23bf6e9db39ce372bdd7b8296ae68f623620",
+   "bytes": 708,
+   "category": "case_record",
+   "content": "case assessment / diagnostic record",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "HUB_BOUNDARY_LAYER_CONFIRMED.json",
+   "sha256": "8e68011fca9a51f8976500a2b333ca01950f1bef18c10b89eb60b6d0625f91cf",
+   "bytes": 9003,
+   "category": "case_record",
+   "content": "case assessment / diagnostic record",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "ROOT_LOCAL_WINDMILL_STATE.json",
+   "sha256": "a22eb76b532d1e1bef8d62d7978d6384dae91c1a32c2dc8a88ed132827d6e63e",
+   "bytes": 5141,
+   "category": "case_record",
+   "content": "case assessment / diagnostic record",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "performance_result_omega145p000.json",
+   "sha256": "117352f9c4eacb74307551f42167411fab07fb54c9281d2bb4475625862d2967",
+   "bytes": 1694,
+   "category": "case_record",
+   "content": "case assessment / diagnostic record",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "solve_v06e_run.log",
+   "sha256": "de4714a95f0340fff50c0b8805827fc502c00b7d72898bcd42f60634de52250f",
+   "bytes": 194521,
+   "category": "solver_log",
+   "content": "solver console log (residual and force-report source)",
+   "reason_not_published": "solver console log with machine-specific paths; the extracted quantities are published instead"
+  },
+  {
+   "file": "solve_v08_run.log",
+   "sha256": "9b03f9c0890ebd770a0ebdce3975ce28e2c2046b6095fbef956c0d6935136ccc",
+   "bytes": 194714,
+   "category": "solver_log",
+   "content": "solver console log (residual and force-report source)",
+   "reason_not_published": "solver console log with machine-specific paths; the extracted quantities are published instead"
+  },
+  {
+   "file": "solve_v10_run.log",
+   "sha256": "2b842089f36363009c184b0c32d3c1df8da17f8bab9f0fe674786b8a9bbba0bd",
+   "bytes": 226412,
+   "category": "solver_log",
+   "content": "solver console log (residual and force-report source)",
+   "reason_not_published": "solver console log with machine-specific paths; the extracted quantities are published instead"
+  },
+  {
+   "file": "solve_v11_run.log",
+   "sha256": "ed0a8614a93429815f54f18e9f8fab1e1e75fe6b7d25148770a0a35ead5940c8",
+   "bytes": 147051,
+   "category": "solver_log",
+   "content": "solver console log (residual and force-report source)",
+   "reason_not_published": "solver console log with machine-specific paths; the extracted quantities are published instead"
+  },
+  {
+   "file": "solve_v12_run.log",
+   "sha256": "97113bf993e11cde4664199130c2b66922879904c0d9f11d126be927d2023e29",
+   "bytes": 197983,
+   "category": "solver_log",
+   "content": "solver console log (residual and force-report source)",
+   "reason_not_published": "solver console log with machine-specific paths; the extracted quantities are published instead"
+  },
+  {
+   "file": "solve_v14_run.log",
+   "sha256": "7e4999d905ef90831754cf4c5aef603982e922b7dd6fc5b935d9673df9807a0e",
+   "bytes": 195576,
+   "category": "solver_log",
+   "content": "solver console log (residual and force-report source)",
+   "reason_not_published": "solver console log with machine-specific paths; the extracted quantities are published instead"
+  },
+  {
+   "file": "solve_v15_run.log",
+   "sha256": "b2aa508a9228154285c527d25736fb75b6dbc81e0eec04a1547abeb294b0f5f6",
+   "bytes": 220709,
+   "category": "solver_log",
+   "content": "solver console log (residual and force-report source)",
+   "reason_not_published": "solver console log with machine-specific paths; the extracted quantities are published instead"
+  },
+  {
+   "file": "b2b_r75_v08.csv",
+   "sha256": "3c4a22a4a95714f416d16f09db6dde6f821c98cdc04af106e504b485fce51340",
+   "bytes": 8327648,
+   "category": "field_export",
+   "content": "blade-to-blade field export at r/R 0.75",
+   "reason_not_published": "large exported field data; figures and statistics derived from it are published"
+  },
+  {
+   "file": "blade_surface_v08.csv",
+   "sha256": "e311b96accd34eb087c6a7d9599f0ea45e3bee67c2f0db00791317396f46b534",
+   "bytes": 29029260,
+   "category": "field_export",
+   "content": "blade-surface field export (y+, Mach, wall shear, pressure)",
+   "reason_not_published": "large exported field data; figures and statistics derived from it are published"
+  },
+  {
+   "file": "b2b_r75_v11.csv",
+   "sha256": "873343e84bae3ef50363afdad66a3c45c1279dddea40a9a32b78626043b8a2a4",
+   "bytes": 8435224,
+   "category": "field_export",
+   "content": "blade-to-blade field export at r/R 0.75",
+   "reason_not_published": "large exported field data; figures and statistics derived from it are published"
+  },
+  {
+   "file": "blade_surface_v11.csv",
+   "sha256": "9e12e61bb6de46052e35128b29f006426871b92c1463b92ab2d217d8f7491de1",
+   "bytes": 28587780,
+   "category": "field_export",
+   "content": "blade-surface field export (y+, Mach, wall shear, pressure)",
+   "reason_not_published": "large exported field data; figures and statistics derived from it are published"
+  },
+  {
+   "file": "b2b_r75_v12.csv",
+   "sha256": "ee37d04058eb880808167cdc31bf9e0529e33a0858c461ac666b009cc03cb316",
+   "bytes": 8973443,
+   "category": "field_export",
+   "content": "blade-to-blade field export at r/R 0.75",
+   "reason_not_published": "large exported field data; figures and statistics derived from it are published"
+  },
+  {
+   "file": "blade_surface_v12.csv",
+   "sha256": "fa127491fa9e1fe7e46b64209c75c27db7a8b7c71eb77c1f670265e5e132d9fe",
+   "bytes": 32050330,
+   "category": "field_export",
+   "content": "blade-surface field export (y+, Mach, wall shear, pressure)",
+   "reason_not_published": "large exported field data; figures and statistics derived from it are published"
+  },
+  {
+   "file": "b2b_r75_v14.csv",
+   "sha256": "0820c026eacff72e066a1a43dc5bad886d988883f24e8bc9383d6f683d509932",
+   "bytes": 8327648,
+   "category": "field_export",
+   "content": "blade-to-blade field export at r/R 0.75",
+   "reason_not_published": "large exported field data; figures and statistics derived from it are published"
+  },
+  {
+   "file": "blade_surface_v14.csv",
+   "sha256": "247140c3623fa10995959f7990f09e0b5dd0fa7250fa53274ad67c7457061bc8",
+   "bytes": 29029260,
+   "category": "field_export",
+   "content": "blade-surface field export (y+, Mach, wall shear, pressure)",
+   "reason_not_published": "large exported field data; figures and statistics derived from it are published"
+  },
+  {
+   "file": "b2b_r75_v15.csv",
+   "sha256": "857f49231399f38e4e4f425b415b5920960cdba21cebd43535571e127e9d31e3",
+   "bytes": 8542461,
+   "category": "field_export",
+   "content": "blade-to-blade field export at r/R 0.75",
+   "reason_not_published": "large exported field data; figures and statistics derived from it are published"
+  },
+  {
+   "file": "blade_surface_v15.csv",
+   "sha256": "5fe3a92960b18c2b630ababfd3825244eff595c8cc2e121ebbe00f2bc45098cd",
+   "bytes": 29127410,
+   "category": "field_export",
+   "content": "blade-surface field export (y+, Mach, wall shear, pressure)",
+   "reason_not_published": "large exported field data; figures and statistics derived from it are published"
+  },
+  {
+   "file": "openfan_v08_vol.msh.h5",
+   "sha256": "594e94b19d81747018ebed78e0ed0ee636dd188667442a127e51becd34f55bd4",
+   "bytes": 202157922,
+   "category": "mesh_case_data",
+   "content": "V08 volume mesh / case / solution data",
+   "reason_not_published": "too large for the repository (GitHub per-file limit)"
+  },
+  {
+   "file": "openfan_v08_mrf.cas.h5",
+   "sha256": "df626f26e607274bd058000d8c5897c858c3d6ed0a9e8a3896258d75c5814075",
+   "bytes": 121833343,
+   "category": "mesh_case_data",
+   "content": "V08 volume mesh / case / solution data",
+   "reason_not_published": "too large for the repository (GitHub per-file limit)"
+  },
+  {
+   "file": "openfan_v08_s10.dat.h5",
+   "sha256": "5bb0d8ca05a6aff82905d460307dde8a4be5f435a4f0d1d1c17531016f157531",
+   "bytes": 451170394,
+   "category": "mesh_case_data",
+   "content": "V08 volume mesh / case / solution data",
+   "reason_not_published": "too large for the repository (GitHub per-file limit)"
+  },
+  {
+   "file": "openfan_blade_v03_G1_PRIME_VERIFIED.SLDPRT",
+   "sha256": "f5d54c78d1596cdd4fd3df130d34287fe25768e99919c7a82be7b751ab17aeca",
+   "bytes": 614971,
+   "category": "cad_master",
+   "content": "PRIME design-master CAD (native SolidWorks)",
+   "reason_not_published": "native CAD file not distributed; its identity is fixed by this hash"
+  },
+  {
+   "file": "STAGE1_ROOT_SEAT_FEA_REPORT.md",
+   "sha256": "34586670230f13f29ec684c2164d7545ace3e7637ef3c826851a86b3601f2771",
+   "bytes": 23316,
+   "category": "fea_report",
+   "content": "FEA stage report",
+   "reason_not_published": "long-form working report; its conclusions are summarised in structural/README.md"
+  },
+  {
+   "file": "STAGE2_22P5_SECTOR_FEA_REPORT.md",
+   "sha256": "c1ec802f735073fefb40f82bd7b5ee806f1e5995c4129e77e89d89463858fba3",
+   "bytes": 41708,
+   "category": "fea_report",
+   "content": "FEA stage report",
+   "reason_not_published": "long-form working report; its conclusions are summarised in structural/README.md"
+  },
+  {
+   "file": "STAGE15_REPORT.md",
+   "sha256": "1ebf35f260562af97eae76b2b7555ca0c8a77b86b2aac21c2021830879a3ff92",
+   "bytes": 16094,
+   "category": "fea_report",
+   "content": "FEA stage report",
+   "reason_not_published": "long-form working report; its conclusions are summarised in structural/README.md"
+  },
+  {
+   "file": "Stage18_ModelAR_FEA_Report.md",
+   "sha256": "3bbb258c003c6488e237d72bd26897355a984efb6e919067b9dfb84860d423bf",
+   "bytes": 24978,
+   "category": "fea_report",
+   "content": "FEA stage report",
+   "reason_not_published": "long-form working report; its conclusions are summarised in structural/README.md"
+  },
+  {
+   "file": "Stage19_Mesh_Closure_Executed_Report.md",
+   "sha256": "7e4d880bfb8be82343234c01d6aa61ba0f8cc911db4bc489de7e68a3218028d8",
+   "bytes": 19302,
+   "category": "fea_report",
+   "content": "FEA stage report",
+   "reason_not_published": "long-form working report; its conclusions are summarised in structural/README.md"
+  },
+  {
+   "file": "Stage20_ModelC_FEA_Report.md",
+   "sha256": "be8b14e92858692af7d00a3875a62731c9f3dca821b62065190f32c996aabb97",
+   "bytes": 21617,
+   "category": "fea_report",
+   "content": "FEA stage report",
+   "reason_not_published": "long-form working report; its conclusions are summarised in structural/README.md"
+  },
+  {
+   "file": "Stage24_Bolt_Connection_Repair_Package.md",
+   "sha256": "87388e70ca416aa9544afba11d6573d88581a6000dd347e5d6ee43222436fb1c",
+   "bytes": 5583,
+   "category": "fea_report",
+   "content": "FEA stage report",
+   "reason_not_published": "long-form working report; its conclusions are summarised in structural/README.md"
+  },
+  {
+   "file": "stage26_final_report.md",
+   "sha256": "82cad722bee9d311d810e096c6b0a8a9e0865f78e0dfab6255fc7705bcb86a4e",
+   "bytes": 23501,
+   "category": "fea_report",
+   "content": "FEA stage report",
+   "reason_not_published": "long-form working report; its conclusions are summarised in structural/README.md"
+  },
+  {
+   "file": "STAGE29_DOMAIN_LOCK_REPORT.md",
+   "sha256": "531eea6182cb171b9a6ccefb66dd5518610492421e3b42fac5e5a25c02968861",
+   "bytes": 8094,
+   "category": "cfd_report",
+   "content": "sector-domain audit showing the original volume check was too coarse",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "STAGE30_VOLUME_MESH_BLOCKER.md",
+   "sha256": "a0d882e9ae8c36c35610ca85b5f38a7888b7bbe52ca677563e28645d2aba48ff",
+   "bytes": 24363,
+   "category": "cfd_report",
+   "content": "periodic-sector tessellation failure that led to the 360-degree domain",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "STAGE31_CFD_DIVERGENCE_DIAGNOSIS.md",
+   "sha256": "5b082617c6d2abd48d7646cee09cb81ca822170570df8358cf651e3f898ab9b2",
+   "bytes": 38795,
+   "category": "cfd_report",
+   "content": "diagnosis of the first mesh divergence (surface-mesh quality)",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "STAGE35_CAMBER_INVERSION_ROOT_CAUSE.md",
+   "sha256": "5b001c5c6fb4aa359d55acc26bbece24f9912ae61fd53b4fe53a12644a6d34e0",
+   "bytes": 33603,
+   "category": "cfd_report",
+   "content": "camber-orientation diagnosis and correction",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "STAGE38_DRAG_DECOMPOSITION_AND_V08.md",
+   "sha256": "2c023cedbc20e4cb2893f4c3017922025ec277a051d3ff0b1a06024b0147834f",
+   "bytes": 31777,
+   "category": "cfd_report",
+   "content": "sectional drag decomposition that motivated V08",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "sweep_relief_audit.json",
+   "sha256": "f3baf9a0a71afb11f28b06206acd83fb8b2b0cd421e80b7820a005165a2596bd",
+   "bytes": 25801,
+   "category": "design_audit",
+   "content": "check of the sweep-law Mach relief against the built geometry",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  },
+  {
+   "file": "critical_mach_audit.json",
+   "sha256": "abfd2a60dcafac282a1c62b645ad300e4b761d91e03eecc9fa6afdc41d9bd302",
+   "bytes": 18578,
+   "category": "design_audit",
+   "content": "section critical-Mach check (2-D panel method)",
+   "reason_not_published": "contains internal working notes alongside the data; the numbers it carries are restated in this repository"
+  }
+ ]
+}

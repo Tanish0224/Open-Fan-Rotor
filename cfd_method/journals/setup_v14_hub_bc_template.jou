@@ -1,0 +1,95 @@
+; setup_v14.jou -- v08's case EXACTLY, with ONE variable changed:
+; the HUB wall shear boundary condition, no-slip -> zero specified shear.
+;
+; WHY. A read-only radial rake on v08's converged solution MEASURED a hub
+; boundary layer about 95 mm thick with a 7.9 % axial-velocity deficit and a
+; 2459 Pa total-pressure loss at the blade root (rake_v08_hub.log,
+; HUB_BOUNDARY_LAYER_CONFIRMED.json). The blade root at r = 0.565 m sits inside
+; it. That deficit lowers phi, raises incidence, stalls the root, and produces
+; the LOCAL WINDMILL-BRAKE state measured at r/R 0.40 in every case this project
+; has run: dT/dr = -1369.2 N/m AND dQ/dr = -55.3 N.m/m, both negative.
+;
+; The hub here is a 17.5 m DUCT WALL (z = -7.0 .. +10.5 m), not a spinner, so the
+; boundary layer grows over 7 m of upstream run. It is a DOMAIN ARTEFACT.
+;
+; WHAT THIS IS: a BOUNDING experiment. Zero wall shear removes ALL hub boundary
+; layer -- MORE than a real spinner would, since a spinner still has one, just a
+; much thinner one. v14 therefore measures an UPPER BOUND on how much of the root
+; loss is attributable to the hub artefact. It is NOT a realistic design and its
+; eta must never be quoted as an achievable design-RPM performance.
+;
+; WHY A BC CHANGE RATHER THAN A SPINNER REBUILD: the boundary layer is a property
+; of the WALL CONDITION, not of the geometry. Setting zero shear tests the
+; hypothesis directly while reusing v08's EXACT verified mesh, so mesh, geometry,
+; RPM, physics, schemes and boundary conditions are otherwise bit-identical and
+; nothing else can confound the comparison.
+;
+; The TUI question sequence below was ESTABLISHED BY PROBING FLUENT (probe_wallbc.log,
+; probe_shear.log, probe_shear2.log), not guessed. The shear components default
+; to 0,0,0, which is exactly the required value.
+/file/read-case
+openfan_v08_mrf.cas.h5
+(system "echo MARK_CASEREAD")
+/define/boundary-conditions/wall
+hub
+
+
+
+
+
+
+
+
+
+
+yes
+shear-bc-spec-shear
+
+
+
+
+
+
+
+
+
+
+
+
+
+(system "echo MARK_SLIP_hub")
+/define/boundary-conditions/wall
+hub:008
+
+
+
+
+
+
+
+
+
+
+yes
+shear-bc-spec-shear
+
+
+
+
+
+
+
+
+
+
+
+
+
+(system "echo MARK_SLIP_hub_008")
+(system "echo MARK_BC_SET")
+/file/write-case
+openfan_v14_mrf.cas.h5
+ok
+(system "echo MARK_CASEWRITTEN")
+exit
+yes

@@ -1,0 +1,88 @@
+{
+ "T_N": 6247.8907,
+ "Q_Nm": 18406.407,
+ "P_shaft_W": 2495154.9575070566,
+ "eta_p": 0.5568955244597886,
+ "eta_p_raw_if_invalid": null,
+ "physical_state_valid": true,
+ "thrust_positive": true,
+ "shaft_power_positive": true,
+ "eta_target": 0.75,
+ "difference": -0.19310447554021137,
+ "checkpoints": [
+  {
+   "T_N": -4020.023,
+   "Q_Nm": 14987.747
+  },
+  {
+   "T_N": -6316.4294,
+   "Q_Nm": 18524.217
+  },
+  {
+   "T_N": -6354.4443,
+   "Q_Nm": 18573.662
+  },
+  {
+   "T_N": -6341.9198,
+   "Q_Nm": 18558.652
+  },
+  {
+   "T_N": -6244.1219,
+   "Q_Nm": 18399.242
+  },
+  {
+   "T_N": -6214.8142,
+   "Q_Nm": 18353.326
+  },
+  {
+   "T_N": -6246.698,
+   "Q_Nm": 18405.872
+  },
+  {
+   "T_N": -6266.675,
+   "Q_Nm": 18437.284
+  },
+  {
+   "T_N": -6257.2649,
+   "Q_Nm": 18421.28
+  },
+  {
+   "T_N": -6247.8907,
+   "Q_Nm": 18406.407
+  }
+ ],
+ "settled_within_1pct": true,
+ "peak_to_peak_T_frac": 0.008302153300094471,
+ "peak_to_peak_Q_frac": 0.004561736384709908,
+ "blade_zones_summed": [
+  "blade"
+ ],
+ "excluded_prefixes": [
+  "hub",
+  "net"
+ ],
+ "pressure_viscous": {
+  "Fz_pressure_N": -6688.0225,
+  "Fz_viscous_N": 440.13177,
+  "Mz_pressure_Nm": 18013.746,
+  "Mz_viscous_Nm": 392.66132,
+  "pressure_share_force": 0.9382544550344026,
+  "pressure_share_moment": 0.9786671394817313
+ },
+ "span_caveat": "CFD wets r 0.5650-1.7254 m vs design 0.4900-1.7500 m; 2.97% of design thrust AND 2.97% of design torque are outside the wetted span, so T and Q are each biased low by ~3% while eta_p is first-order unaffected (see span_accounting.py)",
+ "operating_point": {
+  "V0": 222.40155844424964,
+  "omega": -135.559045147,
+  "rpm": 1294.4935269574726,
+  "rho": 0.3795968196295939,
+  "p": 23842.27292089148,
+  "T": 218.808,
+  "a": 296.53541125899955,
+  "mach": 0.75,
+  "R_design": 1.75
+ },
+ "sector_scaling": 1,
+ "source_transcript": "solve_v14_run.log",
+ "geometry": "v14 = v08 geometry, mesh and RPM EXACTLY, with the HUB WALL SHEAR set to zero specified shear. A BOUNDING test of the duct-wall hub artefact -- NOT a design, and NOT part of the design-RPM ladder.",
+ "geometry_case_tag": "v14"
+}

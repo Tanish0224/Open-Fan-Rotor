@@ -1,0 +1,17 @@
+{
+  "source": "operating_points.json:design_rpm_v05n16",
+  "pass_": true,
+  "T_N": 4997.553,
+  "Q_Nm": 16379.44,
+  "omega": -135.559045147,
+  "mdot_kgs": 765.2567838823114,
+  "P_shaft_W": 2220381.246442578,
+  "P_prop_W": 1111463.5756077352,
+  "eta_recomputed": 0.5005733035209542,
+  "eta_reported": 0.5005733435864266,
+  "dPt_Pa": 911.3235690235687,
+  "swirl_ms": -18.131,
+  "P_work_W": 1480168.7036358002,
+  "P_work_over_P_shaft": 0.6666281774840596,
+  "what_this_tests": "internal consistency of the efficiency accounting against independent field measurements; NOT a validation of the CFD solution"
+}

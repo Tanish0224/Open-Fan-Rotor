@@ -1,0 +1,563 @@
+{
+  "F01_mate_inventory": {
+    "n_mates": 99,
+    "expected": 99,
+    "n_suppressed": 0,
+    "mate_types": [
+      "MateCoincident",
+      "MatePlanarAngleDim"
+    ],
+    "pass": true
+  },
+  "F02_mate_rebuild_no_errors": {
+    "EditRebuild3": true,
+    "n_suppressed_mates": 0,
+    "pass": true
+  },
+  "component_states": [
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-1",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 0.0
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-7",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 135.0
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-9",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 180.0
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-8",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 157.5
+    },
+    {
+      "name": "openfan_blade_root_module_v01-11",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 225.0
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-11",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 225.0
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-10",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 202.5
+    },
+    {
+      "name": "openfan_blade_root_module_v01-10",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 202.5
+    },
+    {
+      "name": "openfan_blade_root_module_v01-12",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 247.50000000000003
+    },
+    {
+      "name": "openfan_blade_root_module_v01-9",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 180.0
+    },
+    {
+      "name": "openfan_blade_root_module_v01-8",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 157.5
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-12",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 247.50000000000003
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-15",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 315.0
+    },
+    {
+      "name": "openfan_blade_root_module_v01-13",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 270.0
+    },
+    {
+      "name": "openfan_blade_root_module_v01-15",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 315.0
+    },
+    {
+      "name": "openfan_blade_root_module_v01-14",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 292.5
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-14",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 292.5
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-13",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 270.0
+    },
+    {
+      "name": "openfan_blade_root_module_v01-16",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 337.5
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-16",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 337.5
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-4",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 67.5
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-6",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 112.5
+    },
+    {
+      "name": "openfan_blade_root_module_v01-7",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 135.0
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-3",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 45.0
+    },
+    {
+      "name": "openfan_blade_root_module_v01-6",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 112.5
+    },
+    {
+      "name": "openfan_blade_root_module_v01-2",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 22.500000000000004
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-5",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 90.0
+    },
+    {
+      "name": "openfan_blade_v03_G1_PRIME_VERIFIED-2",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 22.500000000000004
+    },
+    {
+      "name": "openfan_blade_root_module_v01-3",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 45.0
+    },
+    {
+      "name": "openfan_blade_root_module_v01-4",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 67.5
+    },
+    {
+      "name": "openfan_blade_root_module_v01-5",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 90.0
+    },
+    {
+      "name": "openfan_central_carrier_v02_16station-1",
+      "is_fixed": true,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 0.0
+    },
+    {
+      "name": "openfan_spinner_shell_v02_16cutout-1",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 0.0
+    },
+    {
+      "name": "openfan_blade_root_module_v01-1",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 0.0
+    }
+  ],
+  "constrained_status_counts": {
+    "FullyConstrained": 34
+  },
+  "constrained_status_readable": {
+    "n_unreadable": 0,
+    "readable": true
+  },
+  "F03_fully_constrained": {
+    "n_under_constrained": 0,
+    "under_constrained": [],
+    "n_fixed": 1,
+    "status_readable": true,
+    "pass": true
+  },
+  "F04_no_over_definition": {
+    "n_over_constrained": 0,
+    "over_constrained": [],
+    "status_readable": true,
+    "pass": true
+  },
+  "F05_carrier_grounded": {
+    "carrier": {
+      "name": "openfan_central_carrier_v02_16station-1",
+      "is_fixed": true,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 0.0
+    },
+    "pass": true
+  },
+  "F06_root_module_mobility": {
+    "n_root_modules": 16,
+    "sampled_states": [
+      {
+        "name": "openfan_blade_root_module_v01-11",
+        "is_fixed": false,
+        "constrained_code": 3,
+        "constrained": "FullyConstrained",
+        "angle_deg": 225.0
+      },
+      {
+        "name": "openfan_blade_root_module_v01-10",
+        "is_fixed": false,
+        "constrained_code": 3,
+        "constrained": "FullyConstrained",
+        "angle_deg": 202.5
+      },
+      {
+        "name": "openfan_blade_root_module_v01-13",
+        "is_fixed": false,
+        "constrained_code": 3,
+        "constrained": "FullyConstrained",
+        "angle_deg": 270.0
+      },
+      {
+        "name": "openfan_blade_root_module_v01-16",
+        "is_fixed": false,
+        "constrained_code": 3,
+        "constrained": "FullyConstrained",
+        "angle_deg": 337.5
+      },
+      {
+        "name": "openfan_blade_root_module_v01-3",
+        "is_fixed": false,
+        "constrained_code": 3,
+        "constrained": "FullyConstrained",
+        "angle_deg": 45.0
+      },
+      {
+        "name": "openfan_blade_root_module_v01-1",
+        "is_fixed": false,
+        "constrained_code": 3,
+        "constrained": "FullyConstrained",
+        "angle_deg": 0.0
+      }
+    ],
+    "status_readable": true,
+    "stations_sampled": [
+      0,
+      1,
+      5,
+      8,
+      12,
+      15
+    ],
+    "pass": true
+  },
+  "F07_blade_mobility": {
+    "n_blades": 16,
+    "sampled_states": [
+      {
+        "name": "openfan_blade_v03_G1_PRIME_VERIFIED-1",
+        "is_fixed": false,
+        "constrained_code": 3,
+        "constrained": "FullyConstrained",
+        "angle_deg": 0.0
+      },
+      {
+        "name": "openfan_blade_v03_G1_PRIME_VERIFIED-7",
+        "is_fixed": false,
+        "constrained_code": 3,
+        "constrained": "FullyConstrained",
+        "angle_deg": 135.0
+      },
+      {
+        "name": "openfan_blade_v03_G1_PRIME_VERIFIED-10",
+        "is_fixed": false,
+        "constrained_code": 3,
+        "constrained": "FullyConstrained",
+        "angle_deg": 202.5
+      },
+      {
+        "name": "openfan_blade_v03_G1_PRIME_VERIFIED-14",
+        "is_fixed": false,
+        "constrained_code": 3,
+        "constrained": "FullyConstrained",
+        "angle_deg": 292.5
+      },
+      {
+        "name": "openfan_blade_v03_G1_PRIME_VERIFIED-6",
+        "is_fixed": false,
+        "constrained_code": 3,
+        "constrained": "FullyConstrained",
+        "angle_deg": 112.5
+      },
+      {
+        "name": "openfan_blade_v03_G1_PRIME_VERIFIED-2",
+        "is_fixed": false,
+        "constrained_code": 3,
+        "constrained": "FullyConstrained",
+        "angle_deg": 22.500000000000004
+      }
+    ],
+    "status_readable": true,
+    "pass": true
+  },
+  "F08_shell_mobility": {
+    "shell": {
+      "name": "openfan_spinner_shell_v02_16cutout-1",
+      "is_fixed": false,
+      "constrained_code": 3,
+      "constrained": "FullyConstrained",
+      "angle_deg": 0.0
+    },
+    "status_readable": true,
+    "pass": true
+  },
+  "cleanup_audit": {
+    "n_suppressed_components": 0,
+    "distinct_refs": [
+      "<repo>/02_cad/openfan_blade_root_module_v01.SLDPRT",
+      "<repo>/02_cad/openfan_blade_v03_G1_PRIME_VERIFIED.SLDPRT",
+      "<repo>/02_cad/openfan_central_carrier_v02_16station.SLDPRT",
+      "<repo>/02_cad/openfan_spinner_shell_v02_16cutout.SLDPRT"
+    ],
+    "all_refs_resolve": true
+  },
+  "F09_transform_reproduction_vs_v01": {
+    "v01_root_angles": [
+      0.0,
+      22.500000000000004,
+      45.0,
+      67.5,
+      90.0,
+      112.5,
+      135.0,
+      157.5,
+      180.0,
+      202.49999999999997,
+      224.99999999999997,
+      247.5,
+      270.0,
+      292.5,
+      315.0,
+      337.5
+    ],
+    "final_root_angles": [
+      0.0,
+      22.500000000000004,
+      45.0,
+      67.5,
+      90.0,
+      112.5,
+      135.0,
+      157.5,
+      180.0,
+      202.5,
+      225.0,
+      247.50000000000003,
+      270.0,
+      292.5,
+      315.0,
+      337.5
+    ],
+    "max_root_drift_deg": 2.842170943040401e-14,
+    "max_blade_drift_deg": 2.842170943040401e-14,
+    "tolerance_deg": 1e-06,
+    "pass": true
+  },
+  "F10_station_pitch": {
+    "pitch_deg": 22.5,
+    "max_err_deg": 2.842170943040401e-14,
+    "pass": true
+  },
+  "F18_mate_persistence": {
+    "n_mates_after_reopen": 99,
+    "expected": 99,
+    "pass": true
+  },
+  "F19_geometry_persistence": {
+    "max_angle_drift_after_reopen_deg": 0.0,
+    "pass": true
+  },
+  "F20_component_count": {
+    "n": 34,
+    "expected": 34,
+    "pass": true
+  },
+  "F21_rebuild_stability": {
+    "EditRebuild3_after_reopen": true,
+    "n_mates_after_rebuild": 99,
+    "pass": true
+  },
+  "F11_blade_root_interface": {
+    "station0_gap_m": 0.0,
+    "method": "proven station-0 X-min/X-max method (BLADE_ROOT_MODULE_BUILD_REPORT.md Sec.8); invariant at all 16 stations because the mate scheme applies the IDENTICAL rotation to each paired root+blade (F09/F10 confirm identical angles)",
+    "pass": true
+  },
+  "F12_blade_orientation": {
+    "azimuth_span_deg": 36.70399534060398,
+    "radial_range_m": [
+      0.5600001044652896,
+      1.7244145048387425
+    ],
+    "all_stations_same_handedness": true,
+    "note": "every station uses the SAME part and the SAME sign of rotation about +Z; no mirror/flip operation exists anywhere in the mate scheme (only coincident and angle mates, which cannot mirror a component)",
+    "pass": true
+  },
+  "F13_axial_rake": {
+    "rake_m": 0.006121048315992635,
+    "v02_defect_rake_m": 0.757163,
+    "v03_gate_G1P_03_rake_m": 0.0061,
+    "method": "root-to-tip mean-Z shift (same quantity as v03 gate G1P_03), NOT total Z-extent",
+    "pass": true
+  },
+  "F14_blade_to_blade_clearance": {
+    "n_aabb_flagged": 12,
+    "min_true_surface_distance_m": 0.20548357499691441,
+    "note": "AABB overlap alone is NOT evidence of interference for a 44-deg-swept twisted blade (DECISION_LOG.md O8); true surface distance is the pass basis",
+    "pass": true
+  },
+  "F15_root_to_root_clearance": {
+    "n_aabb_flagged": 0,
+    "min_true_surface_distance_m": null,
+    "pass": true
+  },
+  "F16_shell_carrier_clearance": {
+    "per_station_m": [
+      0.012131170517924752,
+      0.012110659224640406,
+      0.012110660444838293,
+      0.012110647619933851,
+      0.012110650335599767,
+      0.012110659224640406,
+      0.012110660444838293,
+      0.012110647619933851,
+      0.012110650335599767,
+      0.012110659224640406,
+      0.012110660444838293,
+      0.012110647619933851,
+      0.012110650335599767,
+      0.012110659224640406,
+      0.012110660444838293,
+      0.012110647619933851
+    ],
+    "min_m": 0.012110647619933851,
+    "pass": true
+  },
+  "F16b_shell_root_clearance": {
+    "per_station_m": [
+      0.009880542168641464,
+      0.010002765228306058,
+      0.009999188278337883,
+      0.010001482604371562,
+      0.00999918602404309,
+      0.010000760153573714,
+      0.010001865027310871,
+      0.010000755734862626,
+      0.009999186024043115,
+      0.010000760153573679,
+      0.01000264380216746,
+      0.010000669061567541,
+      0.009999186024043143,
+      0.010002127468700956,
+      0.010002013109797245,
+      0.010000755734862754
+    ],
+    "min_m": 0.009880542168641464,
+    "pass": true
+  },
+  "F17_cutout_alignment": {
+    "stations_with_open_passage": 16,
+    "expected": 16,
+    "pass": true
+  },
+  "all_gates_pass": true
+}

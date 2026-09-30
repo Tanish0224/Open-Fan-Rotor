@@ -1,0 +1,100 @@
+{
+ "_what": "The project's own Adkins-Liebeck design code run at v11's rotational speed, at MATCHED THRUST (tau held fixed).",
+ "_this_is_not_a_prediction_of_v11": "openfan_design.py SIZES a blade for a loading; it cannot analyse a given geometry off-design. v11 kept v08's chord and re-twisted only, so it is NOT the rotor described by the 1000 rpm column. The comparison answers 'what would a 1000 rpm design need', not 'what will v11 do'.",
+ "_matched_thrust_caveat": "Both columns deliver 14451.5 N by construction. v11 does not match v08's thrust, so these figures must never be laid alongside the measured v08/v11 thrusts as if all four were one comparison.",
+ "spec": {
+  "cl_root": 0.45,
+  "cl_tip": 0.26,
+  "toc_root": 0.12,
+  "n_blades": 16
+ },
+ "reproduction_check": {
+  "T_N": 14451.541505118192,
+  "Q_Nm": 29818.172778633736,
+  "eta_bem": 0.7951379334289264,
+  "recorded_T_N": 14451.541505118192,
+  "recorded_Q_Nm": 29818.17277864206,
+  "recorded_eta": 0.7951379334288734,
+  "reproduced": true
+ },
+ "design_speed": {
+  "rpm": 1294.4935269577475,
+  "J": 2.9452431127398055,
+  "T_N": 14451.541505118192,
+  "Q_Nm": 29818.172778633736,
+  "P_W": 4042123.0298998575,
+  "eta_bem": 0.7951379334289264
+ },
+ "v11_speed": {
+  "rpm": 999.9999988573334,
+  "J": 3.8125981491150935,
+  "T_N": 14451.541505118192,
+  "Q_Nm": 44073.24519344831,
+  "P_W": 4615339.438712835,
+  "eta_bem": 0.6963833094703871
+ },
+ "sigma_crowding_limit": 0.8,
+ "stations_crowded_at_1000rpm": 4,
+ "stations": [
+  {
+   "r_over_R": 0.4,
+   "chord_design_m": 0.1308668036361657,
+   "chord_1000rpm_m": 0.18139328995991433,
+   "chord_ratio": 1.3860909330697933,
+   "M_rel_design": 0.8128309992439644,
+   "M_rel_1000rpm": 0.7857653347055923,
+   "sigma_design": 0.4756700800750554,
+   "sigma_1000rpm": 0.6591804138307895,
+   "crowded": false
+  },
+  {
+   "r_over_R": 0.6,
+   "chord_design_m": 0.2732835875632221,
+   "chord_1000rpm_m": 0.4175653646844169,
+   "chord_ratio": 1.527956246504618,
+   "M_rel_design": 0.886421475075873,
+   "M_rel_1000rpm": 0.8299300059255847,
+   "sigma_design": 0.6626067509067078,
+   "sigma_1000rpm": 1.012333850271136,
+   "crowded": true
+  },
+  {
+   "r_over_R": 0.75,
+   "chord_design_m": 0.3865417175333757,
+   "chord_1000rpm_m": 0.6314157283774939,
+   "chord_ratio": 1.633499567412086,
+   "M_rel_design": 0.955433730853614,
+   "M_rel_1000rpm": 0.8726860139987083,
+   "sigma_design": 0.7499418673751534,
+   "sigma_1000rpm": 1.2250001727177497,
+   "crowded": true
+  },
+  {
+   "r_over_R": 0.85,
+   "chord_design_m": 0.4348863179966981,
+   "chord_1000rpm_m": 0.7367787623289876,
+   "chord_ratio": 1.6941870365638445,
+   "M_rel_design": 1.006715115901115,
+   "M_rel_1000rpm": 0.9051630348658642,
+   "sigma_design": 0.7445336689744181,
+   "sigma_1000rpm": 1.2613522997327236,
+   "crowded": true
+  },
+  {
+   "r_over_R": 0.95,
+   "chord_design_m": 0.36306683812430446,
+   "chord_1000rpm_m": 0.6330878464164503,
+   "chord_ratio": 1.7437225875189897,
+   "M_rel_design": 1.0613548958507564,
+   "M_rel_1000rpm": 0.9402614476155878,
+   "sigma_design": 0.5562311206593363,
+   "sigma_1000rpm": 0.9699057290473975,
+   "crowded": true
+  }
+ ],
+ "findings": [
+  "Chord must grow 1.39x-1.74x; v11 kept v08's chord unchanged.",
+  "Solidity exceeds the project's own ~0.80 crowding limit at 4 of 5 stations, peaking at 1.261.",
+  "eta_bem falls 0.79514 -> 0.69638. The BEM's verdict is that 1000 rpm is WORSE for this rotor at this thrust."
+ ]
+}

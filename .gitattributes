@@ -1,0 +1,2 @@
+# Store every file byte-for-byte: recorded data files must not be altered by line-ending conversion.
+* -text

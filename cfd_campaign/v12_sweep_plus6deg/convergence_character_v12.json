@@ -1,0 +1,43 @@
+{
+  "label": "v12",
+  "source": "mesh/solve_v12_run.log",
+  "n_second_order": 9,
+  "iterations": 540,
+  "quantities": {
+    "T [N]": {
+      "mean": 5741.0913666666665,
+      "peak_to_peak_pct": 1.9549471142655788,
+      "sem": 12.076996057703163,
+      "slope_per_checkpoint": -4.4085500000001465,
+      "t_stat": -0.9350932991076174,
+      "total_trend_pct": -0.6143152537995288
+    },
+    "Q [N.m]": {
+      "mean": 17616.308,
+      "peak_to_peak_pct": 1.055851203328191,
+      "sem": 19.563505812978637,
+      "slope_per_checkpoint": -9.850333333334065,
+      "t_stat": -1.3692950620441593,
+      "total_trend_pct": -0.44732793424520345
+    },
+    "eta_p": {
+      "mean": 0.5346692901817065,
+      "peak_to_peak_pct": 0.9173687504870757,
+      "sem": 0.0005556208541719493,
+      "slope_per_checkpoint": -0.00011049833339937199,
+      "t_stat": -0.4884421430640971,
+      "total_trend_pct": -0.16533335342573247
+    },
+    "sym [%]": {
+      "mean": 1.6594839926716929,
+      "peak_to_peak_pct": 15.831035143417347,
+      "sem": 0.027335681959945343,
+      "slope_per_checkpoint": -0.019476269426671532,
+      "t_stat": -2.265465161978741,
+      "total_trend_pct": -9.389072512987912
+    }
+  },
+  "project_gate_pass": false,
+  "trend_test": "OLS against checkpoint index, second-order window only",
+  "caveat": "this characterises the KIND of non-convergence; it does not replace the peak-to-peak gate and cannot make a failed gate pass"
+}

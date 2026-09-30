@@ -1,0 +1,88 @@
+{
+ "T_N": 6057.4116,
+ "Q_Nm": 17851.561,
+ "P_shaft_W": 2419940.563543425,
+ "eta_p": 0.5566987058581537,
+ "eta_p_raw_if_invalid": null,
+ "physical_state_valid": true,
+ "thrust_positive": true,
+ "shaft_power_positive": true,
+ "eta_target": 0.75,
+ "difference": -0.19330129414184627,
+ "checkpoints": [
+  {
+   "T_N": -3713.7697,
+   "Q_Nm": 14278.279
+  },
+  {
+   "T_N": -6048.1007,
+   "Q_Nm": 17849.771
+  },
+  {
+   "T_N": -6127.9614,
+   "Q_Nm": 17962.87
+  },
+  {
+   "T_N": -6143.82,
+   "Q_Nm": 17994.934
+  },
+  {
+   "T_N": -6049.3808,
+   "Q_Nm": 17837.793
+  },
+  {
+   "T_N": -6021.4889,
+   "Q_Nm": 17791.448
+  },
+  {
+   "T_N": -6053.4615,
+   "Q_Nm": 17845.563
+  },
+  {
+   "T_N": -6073.4083,
+   "Q_Nm": 17878.54
+  },
+  {
+   "T_N": -6064.1091,
+   "Q_Nm": 17862.696
+  },
+  {
+   "T_N": -6057.4116,
+   "Q_Nm": 17851.561
+  }
+ ],
+ "settled_within_1pct": true,
+ "peak_to_peak_T_frac": 0.00857608306163251,
+ "peak_to_peak_Q_frac": 0.004880207744031038,
+ "blade_zones_summed": [
+  "blade"
+ ],
+ "excluded_prefixes": [
+  "hub",
+  "net"
+ ],
+ "pressure_viscous": {
+  "Fz_pressure_N": -6505.9019,
+  "Fz_viscous_N": 448.4903,
+  "Mz_pressure_Nm": 17451.297,
+  "Mz_viscous_Nm": 400.26382,
+  "pressure_share_force": 0.93550977754749,
+  "pressure_share_moment": 0.9775782171634222
+ },
+ "span_caveat": "CFD wets r 0.5650-1.7254 m vs design 0.4900-1.7500 m; 2.97% of design thrust AND 2.97% of design torque are outside the wetted span, so T and Q are each biased low by ~3% while eta_p is first-order unaffected (see span_accounting.py)",
+ "operating_point": {
+  "V0": 222.40155844424964,
+  "omega": -135.559045147,
+  "rpm": 1294.4935269574726,
+  "rho": 0.3795968196295939,
+  "p": 23842.27292089148,
+  "T": 218.808,
+  "a": 296.53541125899955,
+  "mach": 0.75,
+  "R_design": 1.75
+ },
+ "sector_scaling": 1,
+ "source_transcript": "solve_v15_run.log",
+ "geometry": "v15 CFD derivative, v08 geometry with a LOCAL ROOT DE-PITCH d_beta = -2.40 deg at the root tapering LINEARLY to EXACTLY 0.00 deg at r/R 0.55 and zero outboard, CAD TE 0.012c, DESIGN RPM. Outboard of r/R 0.55 the blade is bit-identical to v08. Directly comparable to v08. NOT v10, which de-pitched the whole blade uniformly and was falsified.",
+ "geometry_case_tag": "v15"
+}

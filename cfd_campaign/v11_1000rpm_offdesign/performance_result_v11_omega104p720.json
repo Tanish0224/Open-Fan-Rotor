@@ -1,0 +1,88 @@
+{
+ "T_N": 5848.0471,
+ "Q_Nm": 18939.194,
+ "P_shaft_W": 1983307.7555774702,
+ "eta_p": 0.6557806196430069,
+ "eta_p_raw_if_invalid": null,
+ "physical_state_valid": true,
+ "thrust_positive": true,
+ "shaft_power_positive": true,
+ "eta_target": 0.75,
+ "difference": -0.09421938035699307,
+ "checkpoints": [
+  {
+   "T_N": -5270.3708,
+   "Q_Nm": 18586.35
+  },
+  {
+   "T_N": -5858.8289,
+   "Q_Nm": 18951.837
+  },
+  {
+   "T_N": -5882.3363,
+   "Q_Nm": 18982.934
+  },
+  {
+   "T_N": -5837.7693,
+   "Q_Nm": 18913.682
+  },
+  {
+   "T_N": -5838.1511,
+   "Q_Nm": 18926.825
+  },
+  {
+   "T_N": -5852.4119,
+   "Q_Nm": 18947.252
+  },
+  {
+   "T_N": -5849.0342,
+   "Q_Nm": 18938.524
+  },
+  {
+   "T_N": -5845.4538,
+   "Q_Nm": 18934.135
+  },
+  {
+   "T_N": -5848.1746,
+   "Q_Nm": 18939.692
+  },
+  {
+   "T_N": -5848.0471,
+   "Q_Nm": 18939.194
+  }
+ ],
+ "settled_within_1pct": true,
+ "peak_to_peak_T_frac": 0.0011896985717146954,
+ "peak_to_peak_Q_frac": 0.0006925642360589865,
+ "blade_zones_summed": [
+  "blade"
+ ],
+ "excluded_prefixes": [
+  "hub",
+  "net"
+ ],
+ "pressure_viscous": {
+  "Fz_pressure_N": -6266.5684,
+  "Fz_viscous_N": 418.5213,
+  "Mz_pressure_Nm": 18653.371,
+  "Mz_viscous_Nm": 285.82294,
+  "pressure_share_force": 0.9373948116208523,
+  "pressure_share_moment": 0.9849083894010751
+ },
+ "span_caveat": "CFD wets r 0.5650-1.7254 m vs design 0.4900-1.7500 m; 2.97% of design thrust AND 2.97% of design torque are outside the wetted span, so T and Q are each biased low by ~3% while eta_p is first-order unaffected (see span_accounting.py)",
+ "operating_point": {
+  "V0": 222.40155844424964,
+  "omega": -104.719755,
+  "rpm": 1294.4935269574726,
+  "rho": 0.3795968196295939,
+  "p": 23842.27292089148,
+  "T": 218.808,
+  "a": 296.53541125899955,
+  "mach": 0.75,
+  "R_design": 1.75
+ },
+ "sector_scaling": 1,
+ "source_transcript": "solve_v11_run.log",
+ "geometry": "v11 CFD derivative, v08 geometry RE-TWISTED for 1000 rpm (+4.07 deg root to +7.35 deg tip), CAD TE 0.012c -- OFF-DESIGN RPM, never comparable to the design-RPM ladder without saying so",
+ "geometry_case_tag": "v11"
+}

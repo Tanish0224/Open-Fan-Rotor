@@ -1,0 +1,97 @@
+{
+  "phase": "spinner_shell_v02_16cutout",
+  "integrity_before": {
+    "02_cad\\openfan_blade_v03_G1_PRIME_VERIFIED.SLDPRT": "f5d54c78d1596cdd",
+    "02_cad\\openfan_blade_v02_G1_VERIFIED.SLDPRT": "5e3e70bb4e4228c1",
+    "02_cad\\openfan_blade_root_module_v01.SLDPRT": "645ac7f31610ff56",
+    "02_cad\\openfan_central_carrier_v01.SLDPRT": "2272ce955d978186",
+    "02_cad\\openfan_central_carrier_v02_16station.SLDPRT": "2d1daa16635d404a",
+    "02_cad\\openfan_spinner_shell_v01.SLDPRT": "8ddb3d911bb077f5",
+    "02_cad\\hub\\openfan_spinner_v01.SLDPRT": "35cf7712fbcf4e93",
+    "02_cad\\rotor\\openfan_rotor_16blade_hub_v01.SLDASM": "739e51cc8b0bb258",
+    "02_cad\\rotor\\openfan_rotor_16blade_v02.SLDASM": "22e6335834c57e08",
+    "03_cfd\\geometry\\domain_CFG-ISO_v01.SLDPRT": "c91a43f7ccfb4432",
+    "02_cad\\blade_geometry.py": "e0879abb828be9f5",
+    "02_cad\\blade_geometry_v03.py": "a58e4edf3bffcfac",
+    "02_cad\\build_rotor_cad_v02.py": "ee312b53f071b375",
+    "02_cad\\build_rotor_cad_v03.py": "cf55d6f664adcddb",
+    "02_cad\\build_blade_root_module_v01.py": "dba75212a35da815",
+    "02_cad\\build_central_carrier_v01.py": "d775e1f27bcc7fbd",
+    "02_cad\\build_spinner_shell_v01.py": "58ffcebe0662546a"
+  },
+  "solidworks_version": "34.3.2",
+  "shell_volume_before_cutouts_m3": 0.011035452451825023,
+  "bodies_before_final_subtract": 17,
+  "final_combine_feature": "Combine2",
+  "bodies_after_all_cutouts": 1,
+  "shell_volume_after_cutouts_m3": 0.010715763092741581,
+  "total_removed_m3": 0.00031968935908344154,
+  "measured": {
+    "bbox_m": [
+      -0.492303487368066,
+      -0.492303487368066,
+      -0.7840833920771888,
+      0.492303487368066,
+      0.492303487368066,
+      0.5880000000000002
+    ],
+    "volume_m3": 0.010715763092741581,
+    "check2": 0
+  },
+  "verification_pre_save": {
+    "W01_valid_solid": {
+      "check2": 0,
+      "n_bodies": 1,
+      "pass": true
+    },
+    "W02_volume_nonzero": {
+      "volume_m3": 0.010715763092741581,
+      "pass": true
+    },
+    "W03_sixteen_openings_present": {
+      "n_open_found": 16,
+      "n_expected": 16,
+      "pass": true
+    }
+  },
+  "file_exists_after_save": true,
+  "file_size_bytes": 557448,
+  "verification_after_reopen": {
+    "W01_valid_solid": {
+      "check2": 0,
+      "n_bodies": 1,
+      "pass": true
+    },
+    "W02_volume_nonzero": {
+      "volume_m3": 0.010715763092741581,
+      "pass": true
+    },
+    "W03_sixteen_openings_present": {
+      "n_open_found": 16,
+      "n_expected": 16,
+      "pass": true
+    }
+  },
+  "save_reopen_volume_delta_pct": 0.0,
+  "build_ok": true,
+  "integrity_after": {
+    "02_cad\\openfan_blade_v03_G1_PRIME_VERIFIED.SLDPRT": "f5d54c78d1596cdd",
+    "02_cad\\openfan_blade_v02_G1_VERIFIED.SLDPRT": "5e3e70bb4e4228c1",
+    "02_cad\\openfan_blade_root_module_v01.SLDPRT": "645ac7f31610ff56",
+    "02_cad\\openfan_central_carrier_v01.SLDPRT": "2272ce955d978186",
+    "02_cad\\openfan_central_carrier_v02_16station.SLDPRT": "2d1daa16635d404a",
+    "02_cad\\openfan_spinner_shell_v01.SLDPRT": "8ddb3d911bb077f5",
+    "02_cad\\hub\\openfan_spinner_v01.SLDPRT": "35cf7712fbcf4e93",
+    "02_cad\\rotor\\openfan_rotor_16blade_hub_v01.SLDASM": "739e51cc8b0bb258",
+    "02_cad\\rotor\\openfan_rotor_16blade_v02.SLDASM": "22e6335834c57e08",
+    "03_cfd\\geometry\\domain_CFG-ISO_v01.SLDPRT": "c91a43f7ccfb4432",
+    "02_cad\\blade_geometry.py": "e0879abb828be9f5",
+    "02_cad\\blade_geometry_v03.py": "a58e4edf3bffcfac",
+    "02_cad\\build_rotor_cad_v02.py": "ee312b53f071b375",
+    "02_cad\\build_rotor_cad_v03.py": "cf55d6f664adcddb",
+    "02_cad\\build_blade_root_module_v01.py": "dba75212a35da815",
+    "02_cad\\build_central_carrier_v01.py": "d775e1f27bcc7fbd",
+    "02_cad\\build_spinner_shell_v01.py": "58ffcebe0662546a"
+  },
+  "integrity_unchanged": true
+}

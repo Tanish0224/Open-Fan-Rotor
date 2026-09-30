@@ -1,0 +1,112 @@
+{
+ "_what": "MEASURED velocity triangle for case v15, with omega and beta taken from that case's own declared sources.",
+ "_beta_basis": "BUILT -- read back from blade_geometry_v15_cfd, the module that generated the CAD. The alternative SHAPEFIT basis (BETA_FIT in make_velocity_triangle_figure.py, a shape fit of the v03 CAD) disagrees by up to 1.18 deg at r/R 0.60 and is reported alongside as a sensitivity. velocity_triangle_v08.json and STAGE39 section 1 use the SHAPEFIT basis. Absolute alpha from either basis carries about +-1 deg of definitional uncertainty; DIFFERENCES between cases on the same basis do not.",
+ "_assumptions": [
+  "disc axial velocity = mean of the upstream and downstream ring planes",
+  "blade sees half the downstream swirl (Betz)"
+ ],
+ "tag": "v15",
+ "omega_rads": 135.559045147,
+ "rpm": 1294.4935269577475,
+ "geometry_module": "blade_geometry_v15_cfd",
+ "note": "v08 geometry with a LOCAL ROOT DE-PITCH -2.40 deg tapering to 0.00 deg at r/R 0.55, zero outboard. DESIGN RPM.",
+ "r_m": [
+  0.7,
+  1.05,
+  1.3125,
+  1.4875,
+  1.6625
+ ],
+ "r_over_R": [
+  0.39999999999999997,
+  0.6,
+  0.75,
+  0.85,
+  0.9500000000000001
+ ],
+ "vz_upstream": [
+  223.92452,
+  224.47849,
+  224.21745,
+  225.35043,
+  226.27498
+ ],
+ "vz_downstream": [
+  221.35803,
+  223.16189,
+  224.6366,
+  231.24336,
+  231.21263
+ ],
+ "vz_disk_mean": [
+  222.641275,
+  223.82019,
+  224.42702500000001,
+  228.296895,
+  228.743805
+ ],
+ "vtheta_upstream": [
+  0.50317192,
+  0.22822434,
+  -0.84356312,
+  -0.0051499467,
+  -0.91162875
+ ],
+ "vtheta_downstream": [
+  6.7277277,
+  -9.0578386,
+  -22.558675,
+  -32.466808,
+  -23.823655
+ ],
+ "a_axial_measured": [
+  0.0010778476553852112,
+  0.0063786872717979115,
+  0.009107242772937507,
+  0.026507615324281142,
+  0.02851708863912661
+ ],
+ "a_tangential_measured": [
+  -0.035449643220068335,
+  0.03181828605765988,
+  0.0633951127574104,
+  0.08050523490538734,
+  0.05285526328978392
+ ],
+ "phi_cfd_deg": [
+  66.18735657821533,
+  58.379024027808164,
+  53.40531657423717,
+  50.91832041743735,
+  46.98017306984672
+ ],
+ "beta_built_deg": [
+  68.59794491888482,
+  61.5809614991702,
+  55.92088526771911,
+  52.52141355447972,
+  49.404636506643406
+ ],
+ "alpha_cfd_deg": [
+  2.4105883406694915,
+  3.2019374713620365,
+  2.5155686934819386,
+  1.6030931370423716,
+  2.4244634367966853
+ ],
+ "beta_shapefit_deg": [
+  null,
+  62.757,
+  55.919,
+  52.598,
+  null
+ ],
+ "alpha_shapefit_deg": [
+  null,
+  4.377975972191834,
+  2.513683425762828,
+  1.679679582562649,
+  null
+ ],
+ "source_transcript": "mesh\\export_v15_run.log"
+}

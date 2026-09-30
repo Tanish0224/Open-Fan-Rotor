@@ -1,0 +1,274 @@
+{
+  "phase": "blade_root_module_v01",
+  "design_source": "blade_geometry_v03.py (v03 module, reused)",
+  "integrity_before": {
+    "02_cad\\openfan_blade_v03_G1_PRIME_VERIFIED.SLDPRT": "f5d54c78d1596cdd",
+    "02_cad\\openfan_blade_v02_G1_VERIFIED.SLDPRT": "5e3e70bb4e4228c1",
+    "02_cad\\hub\\openfan_spinner_v01.SLDPRT": "35cf7712fbcf4e93",
+    "02_cad\\rotor\\openfan_rotor_16blade_hub_v01.SLDASM": "739e51cc8b0bb258",
+    "02_cad\\rotor\\openfan_rotor_16blade_v02.SLDASM": "22e6335834c57e08",
+    "03_cfd\\geometry\\domain_CFG-ISO_v01.SLDPRT": "c91a43f7ccfb4432",
+    "02_cad\\blade_geometry.py": "e0879abb828be9f5",
+    "02_cad\\blade_geometry_v03.py": "a58e4edf3bffcfac",
+    "02_cad\\build_rotor_cad_v02.py": "ee312b53f071b375",
+    "02_cad\\build_rotor_cad_v03.py": "cf55d6f664adcddb"
+  },
+  "solidworks_version": "34.3.2",
+  "root_interface": {
+    "r_m": 0.56,
+    "n_pts": 49,
+    "Y_range_mm": [
+      -9.998416768675954,
+      6.336131025373746
+    ],
+    "Z_range_mm": [
+      -23.30888492735474,
+      23.505975647031644
+    ],
+    "centroid_Y_mm": -1.7620248428055252,
+    "centroid_Z_mm": 0.35408960514131904
+  },
+  "station_sketches": {
+    "S0_root": "3DSketch1",
+    "S1_shank_taper_end": "3DSketch2",
+    "S2_shank_end": "3DSketch3",
+    "S3_collar_start": "3DSketch4",
+    "S4_seat_face": "3DSketch5"
+  },
+  "station_x_m": {
+    "S0_root": 0.56,
+    "S1_shank_taper_end": 0.52,
+    "S2_shank_end": 0.498,
+    "S3_collar_start": 0.49,
+    "S4_seat_face": 0.478
+  },
+  "shank_radius_m": 0.021,
+  "seat_radius_m": 0.035,
+  "lofts": {
+    "taper_root_to_shank": "Loft1",
+    "straight_shank": "Loft2",
+    "flange_cone": "Loft3",
+    "flange_collar": "Loft4"
+  },
+  "bodies_after_lofts": 4,
+  "combine_add_feature": "Combine1",
+  "bodies_after_combine": 1,
+  "volume_after_combine_m3": 0.0001300671906164555,
+  "fillets": {
+    "shank_taper_end_X0.498": {
+      "status": "OK",
+      "point": [
+        0.498,
+        0.019237975157194477,
+        0.00035408960514131903
+      ],
+      "radius_m": 0.003,
+      "n_bodies_after": 1,
+      "check2_after": 0
+    },
+    "cone_end_X0.490": {
+      "status": "OK",
+      "point": [
+        0.49,
+        0.033237975157194476,
+        0.00035408960514131903
+      ],
+      "radius_m": 0.003,
+      "n_bodies_after": 1,
+      "check2_after": 0
+    },
+    "seat_outer_rim_X0.478": {
+      "status": "OK",
+      "point": [
+        0.478,
+        0.033237975157194476,
+        0.00035408960514131903
+      ],
+      "radius_m": 0.002,
+      "n_bodies_after": 1,
+      "check2_after": 0
+    }
+  },
+  "pocket_cut": {
+    "plane": "Plane1",
+    "sketch": "Sketch1",
+    "feature": "Cut-Extrude2",
+    "volume_before_m3": 0.00012984100658603343,
+    "volume_after_m3": 0.00011875746770416862,
+    "removed_m3": 1.1083538881864806e-05,
+    "expected_removed_m3": 1.1083538881864792e-05,
+    "removed_err_pct": 1.2227617280473336e-13,
+    "n_bodies_after": 1
+  },
+  "measured": {
+    "bbox_m": [
+      0.478,
+      -0.03837722302500032,
+      -0.03660661330841988,
+      0.5600001,
+      0.03507385671799782,
+      0.037020890181000576
+    ],
+    "volume_m3": 0.00011875746770416846,
+    "check2": 0
+  },
+  "verification_pre_save": {
+    "M01_single_body_valid": {
+      "check2": 0,
+      "n_bodies": 1,
+      "pass": true
+    },
+    "M02_radial_span": {
+      "measured_X_min_m": 0.478,
+      "measured_X_max_m": 0.5600001,
+      "design_X_min_m": 0.478,
+      "design_X_max_m": 0.56,
+      "err_min_m": 0.0,
+      "err_max_m": 9.999999994736442e-08,
+      "limit_m": 0.003,
+      "pass": true
+    },
+    "M03_root_cross_section_match": {
+      "n_pts_sampled": 741,
+      "measured_Y_range_mm": [
+        -9.999237954616547,
+        6.409842055290937
+      ],
+      "design_Y_range_mm": [
+        -9.998416768675954,
+        6.336131025373746
+      ],
+      "measured_Z_range_mm": [
+        -23.377416655421257,
+        23.50861392915249
+      ],
+      "design_Z_range_mm": [
+        -23.30888492735474,
+        23.505975647031644
+      ],
+      "pass": true
+    },
+    "M04_seat_face_found": {
+      "n_planar_faces_at_X0.478": 1,
+      "pass": true
+    },
+    "M05_seat_OD_ID_from_tessellation": {
+      "OD_method": "max radial distance of tessellated points, band X in (0.479,0.489)",
+      "ID_method": "analytic ISurface.IsCylinder face restricted to X<=0.490 (pocket bore)",
+      "n_pts_in_OD_band": 4146,
+      "measured_ID_mm": 42.0,
+      "measured_OD_mm": 70.00000325009742,
+      "pass": true
+    },
+    "M06_seat_OD_ID_vs_target": {
+      "target_OD_mm": 70.0,
+      "target_ID_mm": 42.0,
+      "measured_OD_mm": 70.00000325009742,
+      "measured_ID_mm": 42.0,
+      "pass": true
+    },
+    "M07_no_unintended_envelope_growth": {
+      "Y_extent_m": 0.07345107974299814,
+      "Z_extent_m": 0.07362750348942046,
+      "limit_m": 0.08,
+      "pass": true
+    },
+    "M08_volume_vs_frustum_approx": {
+      "cad_volume_m3": 0.00011875746770416864,
+      "approx_volume_m3": 0.00012018161897640256,
+      "err_pct": 1.1849992406189422,
+      "limit_pct": 25.0,
+      "pass": true,
+      "note": "APPROXIMATE analytical cross-check only (linear frustum areas); the actual loft surfaces are not simple frustums, so this is a sanity bound, not a precision check."
+    }
+  },
+  "file_exists_after_save": true,
+  "file_size_bytes": 295754,
+  "verification_after_reopen": {
+    "M01_single_body_valid": {
+      "check2": 0,
+      "n_bodies": 1,
+      "pass": true
+    },
+    "M02_radial_span": {
+      "measured_X_min_m": 0.478,
+      "measured_X_max_m": 0.5600001,
+      "design_X_min_m": 0.478,
+      "design_X_max_m": 0.56,
+      "err_min_m": 0.0,
+      "err_max_m": 9.999999994736442e-08,
+      "limit_m": 0.003,
+      "pass": true
+    },
+    "M03_root_cross_section_match": {
+      "n_pts_sampled": 741,
+      "measured_Y_range_mm": [
+        -9.999237954616547,
+        6.409842055290937
+      ],
+      "design_Y_range_mm": [
+        -9.998416768675954,
+        6.336131025373746
+      ],
+      "measured_Z_range_mm": [
+        -23.377416655421257,
+        23.50861392915249
+      ],
+      "design_Z_range_mm": [
+        -23.30888492735474,
+        23.505975647031644
+      ],
+      "pass": true
+    },
+    "M04_seat_face_found": {
+      "n_planar_faces_at_X0.478": 1,
+      "pass": true
+    },
+    "M05_seat_OD_ID_from_tessellation": {
+      "OD_method": "max radial distance of tessellated points, band X in (0.479,0.489)",
+      "ID_method": "analytic ISurface.IsCylinder face restricted to X<=0.490 (pocket bore)",
+      "n_pts_in_OD_band": 4146,
+      "measured_ID_mm": 42.0,
+      "measured_OD_mm": 70.00000325009742,
+      "pass": true
+    },
+    "M06_seat_OD_ID_vs_target": {
+      "target_OD_mm": 70.0,
+      "target_ID_mm": 42.0,
+      "measured_OD_mm": 70.00000325009742,
+      "measured_ID_mm": 42.0,
+      "pass": true
+    },
+    "M07_no_unintended_envelope_growth": {
+      "Y_extent_m": 0.07345107974299814,
+      "Z_extent_m": 0.07362750348942046,
+      "limit_m": 0.08,
+      "pass": true
+    },
+    "M08_volume_vs_frustum_approx": {
+      "cad_volume_m3": 0.00011875746770416846,
+      "approx_volume_m3": 0.00012018161897640256,
+      "err_pct": 1.184999240619089,
+      "limit_pct": 25.0,
+      "pass": true,
+      "note": "APPROXIMATE analytical cross-check only (linear frustum areas); the actual loft surfaces are not simple frustums, so this is a sanity bound, not a precision check."
+    }
+  },
+  "save_reopen_volume_delta_pct": 1.1411936796959088e-14,
+  "ACCEPTED_FOR_GEOMETRIC_READINESS": true,
+  "integrity_after": {
+    "02_cad\\openfan_blade_v03_G1_PRIME_VERIFIED.SLDPRT": "f5d54c78d1596cdd",
+    "02_cad\\openfan_blade_v02_G1_VERIFIED.SLDPRT": "5e3e70bb4e4228c1",
+    "02_cad\\hub\\openfan_spinner_v01.SLDPRT": "35cf7712fbcf4e93",
+    "02_cad\\rotor\\openfan_rotor_16blade_hub_v01.SLDASM": "739e51cc8b0bb258",
+    "02_cad\\rotor\\openfan_rotor_16blade_v02.SLDASM": "22e6335834c57e08",
+    "03_cfd\\geometry\\domain_CFG-ISO_v01.SLDPRT": "c91a43f7ccfb4432",
+    "02_cad\\blade_geometry.py": "e0879abb828be9f5",
+    "02_cad\\blade_geometry_v03.py": "a58e4edf3bffcfac",
+    "02_cad\\build_rotor_cad_v02.py": "ee312b53f071b375",
+    "02_cad\\build_rotor_cad_v03.py": "cf55d6f664adcddb"
+  },
+  "integrity_unchanged": true,
+  "NO_FEA_CLAIMED": true,
+  "NOT_STRUCTURALLY_VALIDATED": true
+}

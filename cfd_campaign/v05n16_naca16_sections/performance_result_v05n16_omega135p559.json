@@ -1,0 +1,87 @@
+{
+ "T_N": 4997.5534,
+ "Q_Nm": 16379.44,
+ "P_shaft_W": 2220381.246442578,
+ "eta_p": 0.5005733435864266,
+ "eta_p_raw_if_invalid": null,
+ "physical_state_valid": true,
+ "thrust_positive": true,
+ "shaft_power_positive": true,
+ "eta_target": 0.75,
+ "difference": -0.24942665641357342,
+ "checkpoints": [
+  {
+   "T_N": -3187.8876,
+   "Q_Nm": 13921.358
+  },
+  {
+   "T_N": -4990.3807,
+   "Q_Nm": 16420.933
+  },
+  {
+   "T_N": -5018.8624,
+   "Q_Nm": 16426.457
+  },
+  {
+   "T_N": -5045.6057,
+   "Q_Nm": 16460.649
+  },
+  {
+   "T_N": -4991.9639,
+   "Q_Nm": 16370.769
+  },
+  {
+   "T_N": -4974.449,
+   "Q_Nm": 16340.888
+  },
+  {
+   "T_N": -4992.466,
+   "Q_Nm": 16369.108
+  },
+  {
+   "T_N": -5006.3793,
+   "Q_Nm": 16393.892
+  },
+  {
+   "T_N": -5001.709,
+   "Q_Nm": 16386.193
+  },
+  {
+   "T_N": -4997.5534,
+   "Q_Nm": 16379.44
+  }
+ ],
+ "settled_within_1pct": true,
+ "peak_to_peak_T_frac": 0.006393077886174143,
+ "peak_to_peak_Q_frac": 0.003237102120091737,
+ "blade_zones_summed": [
+  "blade"
+ ],
+ "excluded_prefixes": [
+  "hub",
+  "net"
+ ],
+ "pressure_viscous": {
+  "Fz_pressure_N": -5278.1846,
+  "Fz_viscous_N": 280.63116,
+  "Mz_pressure_Nm": 16130.068,
+  "Mz_viscous_Nm": 249.37151,
+  "pressure_share_force": 0.9495160170590004,
+  "pressure_share_moment": 0.984775333133484
+ },
+ "span_caveat": "CFD wets r 0.5650-1.7254 m vs design 0.4900-1.7500 m; 2.97% of design thrust AND 2.97% of design torque are outside the wetted span, so T and Q are each biased low by ~3% while eta_p is first-order unaffected (see span_accounting.py)",
+ "operating_point": {
+  "V0": 222.40155844424964,
+  "omega": 135.559045147,
+  "rpm": 1294.4935269574726,
+  "rho": 0.3795968196295939,
+  "p": 23842.27292089148,
+  "T": 218.808,
+  "a": 296.53541125899955,
+  "mach": 0.75,
+  "R_design": 1.75
+ },
+ "sector_scaling": 1,
+ "source_transcript": "fluent-20260916-231644-27536.trn",
+ "geometry": "CFD derivative blade, TE 0.020c (design 0.006c)"
+}

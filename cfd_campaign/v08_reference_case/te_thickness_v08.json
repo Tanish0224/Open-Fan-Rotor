@@ -1,0 +1,80 @@
+{
+ "source": "mesh/blade_surface_v08.csv",
+ "intended_te_frac": 0.012,
+ "outboard_mean_te_over_c": 0.01882970593725205,
+ "stations": [
+  {
+   "r_over_R": 0.4,
+   "chord_m": 0.1308668036747168,
+   "measured_te_m": 0.004406029119706799,
+   "measured_te_over_c": 0.03366804258976515,
+   "intended_te_m": 0.0015704016440966015,
+   "cells_across": 0.6085675579705523
+  },
+  {
+   "r_over_R": 0.5,
+   "chord_m": 0.1984148961107503,
+   "measured_te_m": 0.004138962138859524,
+   "measured_te_over_c": 0.02086013812465601,
+   "intended_te_m": 0.0023809787533290035,
+   "cells_across": 0.5716798534336359
+  },
+  {
+   "r_over_R": 0.6,
+   "chord_m": 0.2732835875505721,
+   "measured_te_m": 0.005393674625992426,
+   "measured_te_over_c": 0.019736547936653193,
+   "intended_te_m": 0.0032794030506068652,
+   "cells_across": 0.7449826831481251
+  },
+  {
+   "r_over_R": 0.7,
+   "chord_m": 0.3504468046198431,
+   "measured_te_m": 0.005894192114064445,
+   "measured_te_over_c": 0.01681907792099384,
+   "intended_te_m": 0.004205361655438117,
+   "cells_across": 0.8141149328818295
+  },
+  {
+   "r_over_R": 0.75,
+   "chord_m": 0.3865417174956579,
+   "measured_te_m": 0.00787893123424134,
+   "measured_te_over_c": 0.020383132990890812,
+   "intended_te_m": 0.004638500609947895,
+   "cells_across": 1.0882501704753234
+  },
+  {
+   "r_over_R": 0.8,
+   "chord_m": 0.41678997471289636,
+   "measured_te_m": 0.007249946269925284,
+   "measured_te_over_c": 0.01739472326540333,
+   "intended_te_m": 0.005001479696554756,
+   "cells_across": 1.0013737941885752
+  },
+  {
+   "r_over_R": 0.85,
+   "chord_m": 0.43488631799669203,
+   "measured_te_m": 0.00501867608224206,
+   "measured_te_over_c": 0.011540202288636349,
+   "intended_te_m": 0.005218635815960305,
+   "cells_across": 0.6931873041770801
+  },
+  {
+   "r_over_R": 0.9,
+   "chord_m": 0.427355988715497,
+   "measured_te_m": 0.00823922782627265,
+   "measured_te_over_c": 0.019279542217338005,
+   "intended_te_m": 0.005128271864585965,
+   "cells_across": 1.1380148931315814
+  },
+  {
+   "r_over_R": 0.95,
+   "chord_m": 0.3630668381252721,
+   "measured_te_m": 0.010006687332106204,
+   "measured_te_over_c": 0.027561556940249966,
+   "intended_te_m": 0.004356802057503265,
+   "cells_across": 1.3821391342688127
+  }
+ ],
+ "mesh_size_floor_m": 0.00724
+}
